@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: '微软雅黑', 'Open Sans', sans-serif;
+  color: #222222;
+  -webkit-backface-visibility: hidden;
+  background: #f4f4f4;
+  height: 100%;
+}
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+/*隐藏*/
+.hide {
+  display: none;
+}
+/*显示*/
+.show {
+  display: block;
+}
+/*不可见的*/
+.invisible {
+  visibility: hidden;
+}
