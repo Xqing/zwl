@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="../skin/base.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/index.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/signin.css"/>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/uibind.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
 
 </head>
 <body>
@@ -14,7 +17,10 @@
 <div class="header">
     <div class="header-wrapper clear">
         <div class="logo"></div>
-        <div class="tel"></div>
+        <div class="tel">
+            <p>服务热线</p>
+            <i>400-1243-1234</i>
+        </div>
     </div>
 </div>
 <!--header end-->
@@ -42,7 +48,7 @@
                 <p class="iagree-txt">
                     <input class="iagree" type="checkbox" name="">
                     我已阅读并同意 
-                    <span>《 债无虑网站注册服务协议 》</span>
+                    <span id="show_pro">《 债无虑网站注册服务协议 》</span>
                 </p>
                 <div class="sign-up-btn">注&nbsp;&nbsp;册</div>
             </div>

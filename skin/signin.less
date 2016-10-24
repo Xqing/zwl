@@ -77,6 +77,9 @@
 			float: left;
 			.title{
 				font-size: 24px;
+				span{
+					font-size: 16px;
+				}
 			}
 			.sign-up-input{
 				input{
@@ -250,6 +253,222 @@
 			font-size: 12px;
 			line-height: 2;
 			padding-top: 20px;
+		}
+	}
+}
+
+.agree-protocol{
+	.popup_card {
+		width: 900px;
+		margin-left: -450px;
+		height: 500px;
+	}
+}
+
+
+.sign-up-content{
+	.content-wrapper{
+		width: 1200px;
+		margin: 20px auto;
+		padding: 45px 30px 80px 40px;
+		background-color: #ffffff;
+		.find-pwd-wrapper{
+			float: left;
+			.title{
+				font-size: 24px;
+				span{
+					font-size: 16px;
+				}
+			}
+			.info{
+				font-size: 14px;
+				position: relative;
+				padding-left: 20px;
+				margin: 135px 0 15px;
+				&:before{
+					content:"";
+					height: 14px;
+					width: 16px;
+					background: url("i/i-info.png") no-repeat left;
+					position: absolute;
+					left: 0;
+					display: inline;
+					top: 3px;
+				}
+			}
+			.find-pwd-input{
+				width: 302px;
+				position: relative;
+				input{
+					height: 43px;
+					border-radius: 3px;
+					border: 1px solid #c9c9c9;
+					margin: 15px 0;
+					width: 100%;
+					padding-left: 43px;
+					&.username{
+						background: url("i/i-username.png") no-repeat 7px;
+					}
+					&.pwd{
+						background: url("i/i-pwd.png") no-repeat 7px;
+					}
+					&.repwd{
+						background: url("i/i-icode.png") no-repeat 7px;
+					}
+					&.icode{
+						width: 162px;
+						background: url("i/i-icode.png") no-repeat 7px;
+					}
+					&.tel{
+						width: 162px;
+						background: url("i/i-icode.png") no-repeat 7px;
+					}
+					&.taketel{
+						background: url("i/i-username.png") no-repeat 7px;
+					}
+				}
+				.pwd-level{
+					position: absolute;
+					right: -175px;
+					top: 35px;
+					span{
+						width: 50px;
+						padding: 7px 17px;
+						margin-left: 5px;
+						border-top: 4px solid #777777;
+						font-size: 12px;
+					}
+				}
+				.pwd-tips{
+					position: absolute;
+					right: -95px;
+					top: 100px;
+					color: #f66f00;
+					text-decoration: underline;
+					font-size: 12px;
+					cursor: pointer;
+					&:after{
+						content: "";
+						display: block;
+						position: absolute;
+						right: -295px;
+						top: 20px;
+						width: 360px;
+						height: 161px;
+						background: url("i/i-pwd-tips.png") no-repeat center;
+					}
+				}
+				.get-code{
+					float: right;
+					margin-top: 15px;
+					width: 120px;
+					height: 43px;
+					line-height: 43px;
+					border-radius: 3px;
+					border: 1px solid #0078c3;
+					font-size: 12px;
+					text-align: center;
+					color: #0078c3;
+					cursor: pointer;
+				}
+				.get-code-line{
+					position: relative;
+					.code-tips{
+					width: 140px;
+					font-size: 12px;
+					position: absolute;
+					right: -150px;
+					top: 20px;
+					p{
+						&:first-child{
+							color: #525252;
+						}
+						&:last-child{
+							color: #808080;
+						}
+					}
+				}
+				}
+				.submit-btn{
+					text-align: center;
+					width: 100%;
+					border-radius: 3px;
+					color: #ffffff;
+					background-color: #0078c3;
+					height: 43px;
+					line-height: 43px;
+					cursor: pointer;
+					margin-top: 15px;
+				}
+			}
+			.pwd-done{
+				padding-left: 140px;
+				width: 580px;
+				height: 123px;
+				margin: 150px 0 0 30px;
+				background: url("i/i-smell.png") no-repeat left;
+				p{
+					font-size: 14px;
+				}
+				.take-personal{
+					display: block;
+					width: 302px;
+					height: 42px;
+					line-height: 42px;
+					background-color: #0078c3;
+					color: #ffffff;
+					text-align: center;
+					border-radius: 3px;
+					margin-top: 25px;
+
+				}
+			}
+		}
+
+	}
+}
+
+.get-code-popup{
+	.popup_card {
+		width: 578px;
+		margin-left: -289px;
+		height: 315px;
+	}
+	.popup_content{
+		p{
+			text-align: center;
+			margin-top: 40px;
+		}
+		.check-btn{
+			width: 140px;
+			height: 42px;
+			line-height: 42px;
+			text-align: center;
+			color: #ffffff;
+			background-color: #0078c3;
+			margin: 0 auto;
+			border-radius: 3px;
+			margin-top: 20px;
+		}
+		.re-mail{
+			text-align: center;
+			margin-top: 30px;
+			.re-btn{
+				background-color: #f6f6f6;
+				width: 95px;
+				height: 18px;
+				line-height: 18px;
+				font-size: 12px;
+				color: #cccccc;
+				border: 1px solid #cccccc;
+				cursor: default;
+				padding: 2px 5px;
+				&.active{
+					color: #0078c3;
+					border: 1px solid #0078c3;
+					cursor: pointer;
+				}
+			}
 		}
 	}
 }
