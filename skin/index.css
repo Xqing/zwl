@@ -17,10 +17,19 @@
 }
 .header .header-wrapper .tel {
   margin-top: 40px;
-  height: 33px;
-  width: 204px;
-  background: url("i/i-tel.png") no-repeat center;
+  height: 44px;
+  width: 215px;
+  background: url("i/i-tel.png") no-repeat left;
   float: right;
+  padding-left: 35px;
+}
+.header .header-wrapper .tel p {
+  font-size: 14px;
+  color: #5b5b5b;
+}
+.header .header-wrapper .tel i {
+  color: #ee7207;
+  font-size: 24px;
 }
 .footer {
   height: 148px;
