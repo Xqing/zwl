@@ -20,15 +20,15 @@
 			width: 215px;
 			background: url("i/i-tel.png") no-repeat left;
 			float: right;
-		  	padding-left: 35px;
-		  	p{
-			  font-size: 14px;
-			  color: #5b5b5b;
+			padding-left: 35px;
+			p{
+				font-size: 14px;
+				color: #5b5b5b;
 			}
-		  i{
-			color: #ee7207;
-			font-size: 24px;
-		  }
+			i{
+				color: #ee7207;
+				font-size: 24px;
+			}
 		}
 	}
 }
@@ -46,4 +46,120 @@
 }
 .yellowtxt{
 	color: #f66f00;
+}
+
+.member-header{
+	.header-top{
+		width: 100%;
+		background-color: #f8f8f8;
+		height: 30px;
+		line-height: 30px;
+		.top-wrapper{
+			width: 1200px;
+			margin: 0 auto;
+			font-size: 12px;
+			.tel{
+				background: url("i/i-tel2.png") no-repeat left;
+				color: #f66f00;
+				padding-left: 20px;
+				margin-left: 20px;
+			}
+			.func{
+				float: right;
+				a{
+					color: #777777;
+					margin-left: 10px;
+				}
+				.app{
+					background: url("i/i-cellphone.png") no-repeat left;
+					padding-left: 15px;
+				}
+				.wechat{
+					background: url("i/i-wechat.png") no-repeat left;
+					padding-left: 25px;
+				}
+
+			}
+		}
+	}
+	.header-logo{
+		background: #ffffff;
+		width: 100%;
+		height: 90px;
+		.header-wrapper{
+			width: 1200px;
+			margin: 0 auto;
+			.logo{
+				height: 90px;
+				width: 340px;
+				float: left;
+				background: url("i/i-logo.png") no-repeat left
+			}
+			.menu{
+				width: 640px;
+				float: right;
+				height: 36px;
+				line-height: 36px;
+				margin-top: 30px;
+				ul{
+					li{
+						float: left;
+						text-align: center;
+						margin-left: 45px;
+						cursor: pointer;
+						&.current{
+							background-color: #0078c3;
+							color: #ffffff;
+							border-radius: 3px;
+						}
+						&.frontpage{
+							width: 90px;
+						}
+					}
+				}
+
+			}
+		}
+	}
+	.banner{
+		width: 100%;
+		height: 240px;
+		background: url("i/i-member.png") no-repeat center #101010;
+	}
+}
+
+.member-content{
+	.member-content-wrapper{
+		width: 1200px;
+		margin: 0 auto;
+		.list-nav{
+			margin-top: 25px; 	
+			color:#5b5b5b;
+			font-size: 14px;
+			a{
+				color:#5b5b5b;
+			}
+		}
+		.nav{
+			height: 617px;
+			width: 203px;
+			background-color: #0078c3;
+			margin-top: 12px;
+			float: left;
+			color: #ffffff;
+			.title{
+				height: 95px;
+				padding: 25px 0 0 30px;
+				background-color: #006caf;
+				p{
+					&:first-child{
+						font-size: 24px;
+					}
+					&:last-child{
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
 }

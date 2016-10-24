@@ -44,3 +44,107 @@
 .yellowtxt {
   color: #f66f00;
 }
+.member-header .header-top {
+  width: 100%;
+  background-color: #f8f8f8;
+  height: 30px;
+  line-height: 30px;
+}
+.member-header .header-top .top-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.member-header .header-top .top-wrapper .tel {
+  background: url("i/i-tel2.png") no-repeat left;
+  color: #f66f00;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.member-header .header-top .top-wrapper .func {
+  float: right;
+}
+.member-header .header-top .top-wrapper .func a {
+  color: #777777;
+  margin-left: 10px;
+}
+.member-header .header-top .top-wrapper .func .app {
+  background: url("i/i-cellphone.png") no-repeat left;
+  padding-left: 15px;
+}
+.member-header .header-top .top-wrapper .func .wechat {
+  background: url("i/i-wechat.png") no-repeat left;
+  padding-left: 25px;
+}
+.member-header .header-logo {
+  background: #ffffff;
+  width: 100%;
+  height: 90px;
+}
+.member-header .header-logo .header-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.member-header .header-logo .header-wrapper .logo {
+  height: 90px;
+  width: 340px;
+  float: left;
+  background: url("i/i-logo.png") no-repeat left;
+}
+.member-header .header-logo .header-wrapper .menu {
+  width: 640px;
+  float: right;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 30px;
+}
+.member-header .header-logo .header-wrapper .menu ul li {
+  float: left;
+  text-align: center;
+  margin-left: 45px;
+  cursor: pointer;
+}
+.member-header .header-logo .header-wrapper .menu ul li.current {
+  background-color: #0078c3;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.member-header .header-logo .header-wrapper .menu ul li.frontpage {
+  width: 90px;
+}
+.member-header .banner {
+  width: 100%;
+  height: 240px;
+  background: url("i/i-member.png") no-repeat center #101010;
+}
+.member-content .member-content-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.member-content .member-content-wrapper .list-nav {
+  margin-top: 25px;
+  color: #5b5b5b;
+  font-size: 14px;
+}
+.member-content .member-content-wrapper .list-nav a {
+  color: #5b5b5b;
+}
+.member-content .member-content-wrapper .nav {
+  height: 617px;
+  width: 203px;
+  background-color: #0078c3;
+  margin-top: 12px;
+  float: left;
+  color: #ffffff;
+}
+.member-content .member-content-wrapper .nav .title {
+  height: 95px;
+  padding: 25px 0 0 30px;
+  background-color: #006caf;
+}
+.member-content .member-content-wrapper .nav .title p:first-child {
+  font-size: 24px;
+}
+.member-content .member-content-wrapper .nav .title p:last-child {
+  font-size: 14px;
+}
