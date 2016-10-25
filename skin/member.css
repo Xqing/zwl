@@ -121,7 +121,7 @@
   margin: 10px 0;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper label {
-  width: 140px;
+  width: 160px;
   text-align: right;
   font-size: 14px;
   color: #333333;
@@ -147,6 +147,12 @@
   margin-right: 10px;
   padding-left: 14px;
   border: 1px solid #cccccc;
+}
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .yellowtips {
+  font-size: 12px;
+  padding-left: 170px;
+  background: url("i/i-tips.png") no-repeat 150px;
+  margin-bottom: 50px;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload {
   margin: 10px 0;
@@ -194,14 +200,49 @@
   width: 140px;
   position: absolute;
 }
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .add-adress {
+  height: 40px;
+  line-height: 40px;
+  width: 50px;
+  background-color: #0078c3;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .my-area {
+  height: 144px;
+  border: 1px solid #cccccc;
+  margin-left: 160px;
+}
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .my-area span {
+  font-size: 12px;
+  color: #5b5b5b;
+  line-height: 1.5;
+  padding: 2px 5px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  margin: 10px 10px 0 10px;
+  display: inline-block;
+}
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .my-area span:hover {
+  border: 1px solid #ee7207;
+}
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .my-area span i {
+  font-style: normal;
+  padding: 2px 5px;
+  color: #ee7207;
+  cursor: pointer;
+  line-height: 1.5;
+}
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .iagree {
   font-size: 12px;
-  margin: 30px 0 20px 140px;
-  color: #abb2ba;
+  margin: 30px 0 20px 160px;
+  color: #5d5d5d;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .btn-area {
-  margin-left: 140px;
-  padding-bottom: 140px;
+  margin-left: 160px;
+  padding-bottom: 160px;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .btn-area div {
   height: 50px;

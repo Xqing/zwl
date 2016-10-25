@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>认证中心-债权方信息-企业</title>
+    <title>认证中心-债权方信息-催收方</title>
     <link rel="stylesheet" type="text/css" href="../skin/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/base.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/index.css"/>
@@ -138,16 +138,10 @@
                 <!-- 切换身份-->
                 <div class="certi-main">
                     <div class="tab">
-                        <a class="current" href="javascript:;">债权方信息</a>
-                        <a href="javascript:;">催收方资格认证</a>
+                        <a href="javascript:;">债权方信息</a>
+                        <a class="current"  href="javascript:;">催收方资格认证</a>
                     </div>
                     <div class="certi-wrapper">
-                        <p>
-                            <label>债权类型：</label>
-                            <input type="radio" name="zqlx"/>个人
-                            <input type="radio" name="zqlx" checked/>企业
-                            <input type="radio" name="zqlx"/>银行
-                        </p>
                         <p>
                             <label>企业名称：</label>
                             <input type="text" name="" placeholder="李小龙"/>
@@ -155,6 +149,10 @@
                         <p>
                             <label>法人姓名：</label>
                             <input type="text" name="" placeholder="李小龙"/>
+                        </p>
+                        <p>
+                            <label>联系电话：</label>
+                            <input type="text" name="" placeholder="13800001234"/>
                         </p>
                         <p>
                             <label>法人身份证号：</label>
@@ -172,6 +170,12 @@
                                 <option>街</option>
                             </select>
                         </p>
+                        <p>
+                            <label>资格认证：</label>
+                            <input type="radio" name="zqlx"/>五证
+                            <input type="radio" name="zqlx" checked/>三证合一
+                        </p>
+                        <p class="yellowtips yellowtxt">上传三证原件扫描件，三证包含：加载统一社会信用代码的营业执照（副本）、法人身份证、银行开户许可证</p>
                         <div class="upload clear">
                             <label>上传法人手持证件照片：</label>
                             <div class="img-box">点击添加</div>
@@ -219,19 +223,41 @@
                                     支持JPG/JPEG/GIF格式
                                 </p>
                             </div>
-
                         </div>
+                        <p>
+                            <label>催收覆盖区域：</label>
+                            <select>
+                                <option>市</option>
+                            </select>
+                            <select>
+                                <option>区</option>
+                            </select>
+                            <select>
+                                <option>街</option>
+                            </select>
+                            <span class="add-adress">添加</span>
+                        </p>
+                        <div class="my-area">
+                            <span>四川省-成都市-锦江区<i>X</i></span>
+                            <span>四川省-成都市-锦江区<i>X</i></span>
+                            <span>四川省-成都市-锦江区<i>X</i></span>
+                            <span>四川省-成都市-锦江区<i>X</i></span>
+                            <span>四川省-成都市-锦江区<i>X</i></span>
+                        </div>
+                        <p>
+                            <label>擅长处置方式：</label>
+                            <input type="radio" name="zqlx"/>诉讼
+                            <input type="radio" name="zqlx" checked/>非诉
+                            <input type="radio" name="zqlx" />转让
+                        </p>
                         <p class="iagree">
                             <input type="checkbox">
                             我已阅读并同意 <span class="bluetxt">《 债无虑网络平台服务合作协议 》</span>
                         </p>
-
                         <div class="btn-area">
                             <div class="submit-btn">提交</div>
                             <div class="cancle-btn">取消</div>
                         </div>
-
-
                     </div>
 
                 </div>
