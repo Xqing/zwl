@@ -1,0 +1,6476 @@
+{
+  "result" : true,
+  "messages" : {
+    "categoryTree" : [ {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "男歌手",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4057,
+          "cid" : 4132,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "女歌手",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4057,
+          "cid" : 4133,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "组合/乐队",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4057,
+          "cid" : 4134,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "合集",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4057,
+          "cid" : 4135,
+          "leaf" : true,
+          "orderNo" : 16
+        } ],
+        "name" : "欧美流行",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 4051,
+        "cid" : 4057,
+        "leaf" : false,
+        "orderNo" : 4
+      } ],
+      "name" : "音乐",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 4051,
+      "leaf" : false,
+      "orderNo" : 1
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "Arts & Photography（艺术与摄影）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4856,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "Biographies & Memoirs（传记与自传）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4857,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "Business & Investing（商业与投资）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4858,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "Children's Books（儿童图书）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4859,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "Comics & Graphic Novels（动漫与绘画小说）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4861,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "Computers & Internet（计算机与网络）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4862,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "Cooking, Food & Wine（烹调，食品与酒类）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4863,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "ELT & Standard Test（英语学习与标准考试）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4864,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "Entertainment（休闲娱乐）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4865,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "Health, Mind & Body（身心健康）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4866,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "History（历史）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4867,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "Home & Garden（家居与园艺）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4868,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "Law（法律）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4869,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "Literature & Fiction（文学与虚构类）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4870,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "Medicine（医学）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4871,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "Mystery & Thrillers（神秘与惊悚）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4872,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "Nonfiction（非虚构类）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4873,
+          "leaf" : true,
+          "orderNo" : 18
+        }, {
+          "children" : [ ],
+          "name" : "Outdoors & Nature（户外与自然）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4874,
+          "leaf" : true,
+          "orderNo" : 19
+        }, {
+          "children" : [ ],
+          "name" : "Parenting & Families（养育与家庭）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4875,
+          "leaf" : true,
+          "orderNo" : 20
+        }, {
+          "children" : [ ],
+          "name" : "Professional & Technical（专业与技术类）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4876,
+          "leaf" : true,
+          "orderNo" : 21
+        }, {
+          "children" : [ ],
+          "name" : "Religion & Spirituality（宗教与精神生活）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4878,
+          "leaf" : true,
+          "orderNo" : 23
+        }, {
+          "children" : [ ],
+          "name" : "Romance（浪漫小说）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4879,
+          "leaf" : true,
+          "orderNo" : 24
+        }, {
+          "children" : [ ],
+          "name" : "Science Fiction & Fantasy（科幻文学与玄幻）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4880,
+          "leaf" : true,
+          "orderNo" : 25
+        }, {
+          "children" : [ ],
+          "name" : "Science（科学）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4881,
+          "leaf" : true,
+          "orderNo" : 26
+        }, {
+          "children" : [ ],
+          "name" : "Self-Help（励志自助）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4882,
+          "leaf" : true,
+          "orderNo" : 27
+        }, {
+          "children" : [ ],
+          "name" : "Sheet Music & Scores（活页乐谱与乐谱）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4883,
+          "leaf" : true,
+          "orderNo" : 28
+        }, {
+          "children" : [ ],
+          "name" : "Sports（运动）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4884,
+          "leaf" : true,
+          "orderNo" : 29
+        }, {
+          "children" : [ ],
+          "name" : "Teens（青少年读物）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4885,
+          "leaf" : true,
+          "orderNo" : 30
+        }, {
+          "children" : [ ],
+          "name" : "China Interest（中国主题）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4860,
+          "leaf" : true,
+          "orderNo" : 32
+        }, {
+          "children" : [ ],
+          "name" : "Audio Books（有声读物）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4887,
+          "leaf" : true,
+          "orderNo" : 33
+        }, {
+          "children" : [ ],
+          "name" : "港台版图书",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4855,
+          "cid" : 4888,
+          "leaf" : true,
+          "orderNo" : 34
+        } ],
+        "name" : "英文原版书",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1713,
+        "cid" : 4855,
+        "leaf" : false,
+        "orderNo" : 1
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "中国当代小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3297,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "中国近现代小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3298,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "中国古典小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3299,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "四大名著",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3300,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "港澳台小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3301,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "网络小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3302,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "外国小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3303,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "侦探/悬疑/推理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3304,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "惊悚/恐怖",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3305,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "科幻小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 6569,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "魔幻/奇幻/玄幻",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3306,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "武侠",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3307,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "军事",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3308,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "情感/家庭/婚姻",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3309,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "宫廷",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3310,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "社会",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3311,
+          "leaf" : true,
+          "orderNo" : 18
+        }, {
+          "children" : [ ],
+          "name" : "都市",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3312,
+          "leaf" : true,
+          "orderNo" : 19
+        }, {
+          "children" : [ ],
+          "name" : "乡土",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3313,
+          "leaf" : true,
+          "orderNo" : 20
+        }, {
+          "children" : [ ],
+          "name" : "职场",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3314,
+          "leaf" : true,
+          "orderNo" : 21
+        }, {
+          "children" : [ ],
+          "name" : "财经",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3315,
+          "leaf" : true,
+          "orderNo" : 22
+        }, {
+          "children" : [ ],
+          "name" : "官场",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3316,
+          "leaf" : true,
+          "orderNo" : 23
+        }, {
+          "children" : [ ],
+          "name" : "历史",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3317,
+          "leaf" : true,
+          "orderNo" : 24
+        }, {
+          "children" : [ ],
+          "name" : "影视小说",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3318,
+          "leaf" : true,
+          "orderNo" : 25
+        }, {
+          "children" : [ ],
+          "name" : "作品集",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3319,
+          "leaf" : true,
+          "orderNo" : 26
+        }, {
+          "children" : [ ],
+          "name" : "世界名著",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3320,
+          "leaf" : true,
+          "orderNo" : 27
+        }, {
+          "children" : [ ],
+          "name" : "名人A-Z",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3323,
+          "leaf" : true,
+          "orderNo" : 28
+        }, {
+          "children" : [ ],
+          "name" : "综合",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3322,
+          "leaf" : true,
+          "orderNo" : 28
+        }, {
+          "children" : [ ],
+          "name" : "期刊杂志",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3258,
+          "cid" : 3321,
+          "leaf" : true,
+          "orderNo" : 28
+        } ],
+        "name" : "小说",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1713,
+        "cid" : 3258,
+        "leaf" : false,
+        "orderNo" : 2
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "儿童文学",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3263,
+          "cid" : 3394,
+          "leaf" : true,
+          "orderNo" : 4
+        } ],
+        "name" : "少儿",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1713,
+        "cid" : 3263,
+        "leaf" : false,
+        "orderNo" : 7
+      } ],
+      "name" : "图书",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1713,
+      "leaf" : false,
+      "orderNo" : 1
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "床",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9848,
+          "cid" : 9863,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "床垫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9848,
+          "cid" : 9864,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "床头柜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9848,
+          "cid" : 9865,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "衣柜/衣橱",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9848,
+          "cid" : 9866,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "斗柜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9848,
+          "cid" : 9867,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "梳妆台/凳",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9848,
+          "cid" : 9868,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "穿衣镜 ",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9848,
+          "cid" : 9869,
+          "leaf" : true,
+          "orderNo" : 7
+        } ],
+        "name" : "卧室家具",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 9847,
+        "cid" : 9848,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "家具修改",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 9847,
+      "leaf" : false,
+      "orderNo" : 1
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "平板电视",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 798,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "空调",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 870,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "冰箱",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 878,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "洗衣机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 880,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "家庭影院",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 823,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "DVD播放机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 965,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "迷你音响",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1199,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "烟机/灶具",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1300,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "热水器",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1706,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "消毒柜/洗碗机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1301,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "酒柜/冰吧/冷柜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1707,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "家电配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 877,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "家电下乡",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1013,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "空调外机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1259,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "家电服务",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 794,
+          "cid" : 1012,
+          "leaf" : true,
+          "orderNo" : 23
+        } ],
+        "name" : "大 家 电",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 737,
+        "cid" : 794,
+        "leaf" : false,
+        "orderNo" : 0
+      } ],
+      "name" : "家用电器",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 737,
+      "leaf" : false,
+      "orderNo" : 1
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "111",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 1170130,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "新增分类1",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 1753042,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "分类1",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 1753040,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "包装贺卡modify",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504492,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "mqd",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504799,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "重试一次",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504494,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "mysql下发",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504495,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "just test",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504493,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "手机1",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 655,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "3G手机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 857,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "双模手机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 657,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "CDMA手机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 656,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "靖晨测试",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504392,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "对讲机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 659,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "双卡手机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 859,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "老人儿童手机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 1217,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "22",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504449,
+          "leaf" : true,
+          "orderNo" : 22
+        }, {
+          "children" : [ ],
+          "name" : "靖晨测试2 ",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 653,
+          "cid" : 2504393,
+          "leaf" : true,
+          "orderNo" : 34
+        } ],
+        "name" : "手机通讯",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 652,
+        "cid" : 653,
+        "leaf" : false,
+        "orderNo" : 0
+      } ],
+      "name" : "手机数码",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 652,
+      "leaf" : false,
+      "orderNo" : 2
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "剧情/情色",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4312,
+          "leaf" : true,
+          "orderNo" : 193
+        }, {
+          "children" : [ ],
+          "name" : "动作/冒险",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4313,
+          "leaf" : true,
+          "orderNo" : 194
+        }, {
+          "children" : [ ],
+          "name" : "灾难/现实",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4314,
+          "leaf" : true,
+          "orderNo" : 195
+        }, {
+          "children" : [ ],
+          "name" : "武打/西部",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4315,
+          "leaf" : true,
+          "orderNo" : 196
+        }, {
+          "children" : [ ],
+          "name" : "战争/谍战",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4316,
+          "leaf" : true,
+          "orderNo" : 197
+        }, {
+          "children" : [ ],
+          "name" : "经典/名著",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4317,
+          "leaf" : true,
+          "orderNo" : 198
+        }, {
+          "children" : [ ],
+          "name" : "爱情/浪漫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4318,
+          "leaf" : true,
+          "orderNo" : 199
+        }, {
+          "children" : [ ],
+          "name" : "科幻/魔幻",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4319,
+          "leaf" : true,
+          "orderNo" : 200
+        }, {
+          "children" : [ ],
+          "name" : "文艺/温情",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4320,
+          "leaf" : true,
+          "orderNo" : 201
+        }, {
+          "children" : [ ],
+          "name" : "武侠/古装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4321,
+          "leaf" : true,
+          "orderNo" : 202
+        }, {
+          "children" : [ ],
+          "name" : "儿童/动画",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4322,
+          "leaf" : true,
+          "orderNo" : 203
+        }, {
+          "children" : [ ],
+          "name" : "校园/青春",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4323,
+          "leaf" : true,
+          "orderNo" : 204
+        }, {
+          "children" : [ ],
+          "name" : "动物/自然",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4324,
+          "leaf" : true,
+          "orderNo" : 205
+        }, {
+          "children" : [ ],
+          "name" : "社会/伦理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4325,
+          "leaf" : true,
+          "orderNo" : 206
+        }, {
+          "children" : [ ],
+          "name" : "体育/运动",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4326,
+          "leaf" : true,
+          "orderNo" : 207
+        }, {
+          "children" : [ ],
+          "name" : "恐怖/惊竦",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4327,
+          "leaf" : true,
+          "orderNo" : 208
+        }, {
+          "children" : [ ],
+          "name" : "歌舞/音乐",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4328,
+          "leaf" : true,
+          "orderNo" : 209
+        }, {
+          "children" : [ ],
+          "name" : "喜剧/幽默",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4329,
+          "leaf" : true,
+          "orderNo" : 210
+        }, {
+          "children" : [ ],
+          "name" : "悬疑/推理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4330,
+          "leaf" : true,
+          "orderNo" : 211
+        }, {
+          "children" : [ ],
+          "name" : "枪战/警匪",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4331,
+          "leaf" : true,
+          "orderNo" : 212
+        }, {
+          "children" : [ ],
+          "name" : "黑帮/罪案",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4332,
+          "leaf" : true,
+          "orderNo" : 213
+        }, {
+          "children" : [ ],
+          "name" : "生活/家庭",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4333,
+          "leaf" : true,
+          "orderNo" : 214
+        }, {
+          "children" : [ ],
+          "name" : "青春/偶像",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4334,
+          "leaf" : true,
+          "orderNo" : 215
+        }, {
+          "children" : [ ],
+          "name" : "成长/传记",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4335,
+          "leaf" : true,
+          "orderNo" : 216
+        }, {
+          "children" : [ ],
+          "name" : "历史/史诗",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4336,
+          "leaf" : true,
+          "orderNo" : 217
+        }, {
+          "children" : [ ],
+          "name" : "侦探/心理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4337,
+          "leaf" : true,
+          "orderNo" : 218
+        }, {
+          "children" : [ ],
+          "name" : "西部片",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4338,
+          "leaf" : true,
+          "orderNo" : 219
+        }, {
+          "children" : [ ],
+          "name" : "纪录片/短片",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4339,
+          "leaf" : true,
+          "orderNo" : 220
+        }, {
+          "children" : [ ],
+          "name" : "国产老电影",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4340,
+          "leaf" : true,
+          "orderNo" : 221
+        }, {
+          "children" : [ ],
+          "name" : "电影套装、合集",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4341,
+          "leaf" : true,
+          "orderNo" : 222
+        }, {
+          "children" : [ ],
+          "name" : "其他",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4085,
+          "cid" : 4342,
+          "leaf" : true,
+          "orderNo" : 223
+        } ],
+        "name" : "电影",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 4052,
+        "cid" : 4085,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "影视",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 4052,
+      "leaf" : false,
+      "orderNo" : 2
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "笔记本",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 672,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "超极本",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 6864,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "上网本",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 1105,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "平板电脑",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 2694,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "平板电脑配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 5146,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "台式机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 673,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "服务器",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 674,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "笔记本配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 675,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "联想在线订制",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 671,
+          "cid" : 4004,
+          "leaf" : true,
+          "orderNo" : 9
+        } ],
+        "name" : "电脑整机",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 670,
+        "cid" : 671,
+        "leaf" : false,
+        "orderNo" : 1
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "游戏点卡",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 4708,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "QQ充值",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 4709,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "游戏点卡",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 2504510,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "虚拟商家",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 2504509,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "路由器",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 700,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "网卡",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 701,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "交换机",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 702,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "网络存储",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 983,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "3G上网",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 699,
+          "cid" : 1098,
+          "leaf" : true,
+          "orderNo" : 5
+        } ],
+        "name" : "网络产品",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 670,
+        "cid" : 699,
+        "leaf" : false,
+        "orderNo" : 4
+      } ],
+      "name" : "电脑、办公",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 670,
+      "leaf" : false,
+      "orderNo" : 3
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "音乐",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4626,
+          "leaf" : true,
+          "orderNo" : 507
+        }, {
+          "children" : [ ],
+          "name" : "书法",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4627,
+          "leaf" : true,
+          "orderNo" : 508
+        }, {
+          "children" : [ ],
+          "name" : "绘画",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4628,
+          "leaf" : true,
+          "orderNo" : 509
+        }, {
+          "children" : [ ],
+          "name" : "雕塑",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4629,
+          "leaf" : true,
+          "orderNo" : 510
+        }, {
+          "children" : [ ],
+          "name" : "服装设计",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4630,
+          "leaf" : true,
+          "orderNo" : 511
+        }, {
+          "children" : [ ],
+          "name" : "平面设计",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4631,
+          "leaf" : true,
+          "orderNo" : 512
+        }, {
+          "children" : [ ],
+          "name" : "工业造型设计",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4632,
+          "leaf" : true,
+          "orderNo" : 513
+        }, {
+          "children" : [ ],
+          "name" : "装潢设计",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4633,
+          "leaf" : true,
+          "orderNo" : 514
+        }, {
+          "children" : [ ],
+          "name" : "其他",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4111,
+          "cid" : 4634,
+          "leaf" : true,
+          "orderNo" : 515
+        } ],
+        "name" : "艺术",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 4053,
+        "cid" : 4111,
+        "leaf" : false,
+        "orderNo" : 14
+      } ],
+      "name" : "教育音像",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 4053,
+      "leaf" : false,
+      "orderNo" : 3
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "炒锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1324,
+          "leaf" : true,
+          "orderNo" : 1324
+        }, {
+          "children" : [ ],
+          "name" : "汤锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1326,
+          "leaf" : true,
+          "orderNo" : 1325
+        }, {
+          "children" : [ ],
+          "name" : "压力锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1325,
+          "leaf" : true,
+          "orderNo" : 1326
+        }, {
+          "children" : [ ],
+          "name" : "蒸锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1327,
+          "leaf" : true,
+          "orderNo" : 1328
+        }, {
+          "children" : [ ],
+          "name" : "煎锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1328,
+          "leaf" : true,
+          "orderNo" : 1329
+        }, {
+          "children" : [ ],
+          "name" : "奶锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1329,
+          "leaf" : true,
+          "orderNo" : 1330
+        }, {
+          "children" : [ ],
+          "name" : "套锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1330,
+          "leaf" : true,
+          "orderNo" : 1331
+        }, {
+          "children" : [ ],
+          "name" : "水壶",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1331,
+          "leaf" : true,
+          "orderNo" : 1332
+        }, {
+          "children" : [ ],
+          "name" : "刀具",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1332,
+          "leaf" : true,
+          "orderNo" : 1333
+        }, {
+          "children" : [ ],
+          "name" : "保鲜盒",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1333,
+          "leaf" : true,
+          "orderNo" : 1334
+        }, {
+          "children" : [ ],
+          "name" : "厨具用品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1334,
+          "leaf" : true,
+          "orderNo" : 1335
+        }, {
+          "children" : [ ],
+          "name" : "厨用小件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1322,
+          "cid" : 1335,
+          "leaf" : true,
+          "orderNo" : 1336
+        } ],
+        "name" : "厨房用具",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1620,
+        "cid" : 1322,
+        "leaf" : false,
+        "orderNo" : 1322
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "床品件套",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1626,
+          "leaf" : true,
+          "orderNo" : 1626
+        }, {
+          "children" : [ ],
+          "name" : "被子",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1627,
+          "leaf" : true,
+          "orderNo" : 1627
+        }, {
+          "children" : [ ],
+          "name" : "枕芯枕套",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1628,
+          "leaf" : true,
+          "orderNo" : 1628
+        }, {
+          "children" : [ ],
+          "name" : "床单被罩",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1629,
+          "leaf" : true,
+          "orderNo" : 1629
+        }, {
+          "children" : [ ],
+          "name" : "毛巾被/毯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1630,
+          "leaf" : true,
+          "orderNo" : 1630
+        }, {
+          "children" : [ ],
+          "name" : "床垫/床褥",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1631,
+          "leaf" : true,
+          "orderNo" : 1631
+        }, {
+          "children" : [ ],
+          "name" : "蚊帐/凉席",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1632,
+          "leaf" : true,
+          "orderNo" : 1632
+        }, {
+          "children" : [ ],
+          "name" : "抱枕坐垫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1633,
+          "leaf" : true,
+          "orderNo" : 1633
+        }, {
+          "children" : [ ],
+          "name" : "毛巾家纺",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 1634,
+          "leaf" : true,
+          "orderNo" : 1634
+        }, {
+          "children" : [ ],
+          "name" : "电热毯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 2688,
+          "leaf" : true,
+          "orderNo" : 1635
+        }, {
+          "children" : [ ],
+          "name" : "窗帘/窗纱",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 4952,
+          "leaf" : true,
+          "orderNo" : 1637
+        }, {
+          "children" : [ ],
+          "name" : "酒店用品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1621,
+          "cid" : 4953,
+          "leaf" : true,
+          "orderNo" : 1638
+        } ],
+        "name" : "家纺",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1620,
+        "cid" : 1621,
+        "leaf" : false,
+        "orderNo" : 1621
+      } ],
+      "name" : "家居家装",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1620,
+      "leaf" : false,
+      "orderNo" : 4
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "女童",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3963,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "男童",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3962,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "宝宝服饰",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3978,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "儿童配饰",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3977,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "亲子装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 4937,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "童鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 4697,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "卫衣/绒衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3967,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "背心/吊带",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3968,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "衬衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3969,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "内衣/居家服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3970,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "牛仔服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3971,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "运动装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3972,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "裙子",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3973,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "套装/亲子装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3974,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "帽子/袜子/配饰",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3975,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "婴儿装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 3961,
+          "cid" : 3976,
+          "leaf" : true,
+          "orderNo" : 15
+        } ],
+        "name" : "童装",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1315,
+        "cid" : 3961,
+        "leaf" : false,
+        "orderNo" : 0
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "平底鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9771,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "高跟鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9772,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "单鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 6914,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "休闲鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 6916,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "凉鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 6917,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "女靴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9776,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "雪地靴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 6920,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "拖鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9775,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "踝靴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9769,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "筒靴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9770,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "帆布鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9774,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "雨鞋/雨靴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9777,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "妈妈鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9778,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "鞋配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9779,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "特色鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 9780,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "鱼嘴鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 6915,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "布鞋/绣花鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 6918,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "靴子",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6905,
+          "cid" : 6919,
+          "leaf" : true,
+          "orderNo" : 59
+        } ],
+        "name" : "女鞋",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1315,
+        "cid" : 6905,
+        "leaf" : false,
+        "orderNo" : 5
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "商务休闲鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6907,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "正装鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6906,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "休闲鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6908,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "凉鞋/沙滩鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6909,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "男靴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6912,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "功能鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 9781,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "拖鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6911,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "雨鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 9782,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "传统布鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6910,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "鞋配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 6913,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "帆布鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 9783,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "豆豆鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 9784,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "驾车鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6904,
+          "cid" : 9785,
+          "leaf" : true,
+          "orderNo" : 13
+        } ],
+        "name" : "男鞋",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1315,
+        "cid" : 6904,
+        "leaf" : false,
+        "orderNo" : 6
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "衬衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 1348,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "T恤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 1349,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "POLO衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9733,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "上衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 2504515,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "针织衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 1350,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "羊绒衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9726,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "卫衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9732,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "马甲/背心",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9734,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "夹克",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9730,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "风衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9728,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "大衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9729,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "皮衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9725,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "外套",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 1351,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "西服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9731,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "棉服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9724,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "羽绒服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 3982,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "牛仔裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9735,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "休闲裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9736,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "西裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9737,
+          "leaf" : true,
+          "orderNo" : 18
+        }, {
+          "children" : [ ],
+          "name" : "西服套装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9738,
+          "leaf" : true,
+          "orderNo" : 19
+        }, {
+          "children" : [ ],
+          "name" : "大码装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9739,
+          "leaf" : true,
+          "orderNo" : 20
+        }, {
+          "children" : [ ],
+          "name" : "中老年装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9740,
+          "leaf" : true,
+          "orderNo" : 21
+        }, {
+          "children" : [ ],
+          "name" : "唐装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9741,
+          "leaf" : true,
+          "orderNo" : 22
+        }, {
+          "children" : [ ],
+          "name" : "工装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1342,
+          "cid" : 9742,
+          "leaf" : true,
+          "orderNo" : 23
+        } ],
+        "name" : "男装",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1315,
+        "cid" : 1342,
+        "leaf" : false,
+        "orderNo" : 1342
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "T恤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 1355,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "衬衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 1354,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "针织衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 1356,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "雪纺衫",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9713,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "卫衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9710,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "马甲",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9714,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "连衣裙",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9719,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "半身裙",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9720,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "牛仔裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9715,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "休闲裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9717,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "打底裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9716,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "正装裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9718,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "西服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9711,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "短外套",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9712,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "风衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9708,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "大衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9706,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "皮衣皮草",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9707,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "棉服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9705,
+          "leaf" : true,
+          "orderNo" : 18
+        }, {
+          "children" : [ ],
+          "name" : "羽绒服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 3983,
+          "leaf" : true,
+          "orderNo" : 19
+        }, {
+          "children" : [ ],
+          "name" : "孕妇装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 1360,
+          "leaf" : true,
+          "orderNo" : 20
+        }, {
+          "children" : [ ],
+          "name" : "大码装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9722,
+          "leaf" : true,
+          "orderNo" : 21
+        }, {
+          "children" : [ ],
+          "name" : "中老年装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9721,
+          "leaf" : true,
+          "orderNo" : 22
+        }, {
+          "children" : [ ],
+          "name" : "婚纱礼服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 9723,
+          "leaf" : true,
+          "orderNo" : 23
+        }, {
+          "children" : [ ],
+          "name" : "外套",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 1358,
+          "leaf" : true,
+          "orderNo" : 1357
+        }, {
+          "children" : [ ],
+          "name" : "裙子",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 1357,
+          "leaf" : true,
+          "orderNo" : 1359
+        }, {
+          "children" : [ ],
+          "name" : "裤子",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 1359,
+          "leaf" : true,
+          "orderNo" : 1360
+        }, {
+          "children" : [ ],
+          "name" : "皮衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1343,
+          "cid" : 4001,
+          "leaf" : true,
+          "orderNo" : 1362
+        } ],
+        "name" : "女装",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1315,
+        "cid" : 1343,
+        "leaf" : false,
+        "orderNo" : 1343
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "休闲鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9754,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "帆布鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9755,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "跑步鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9756,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "篮球鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9757,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "足球鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9758,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "训练鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9759,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "乒羽鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9760,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "拖鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9761,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "卫衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9764,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "夹克",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9763,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "T恤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9765,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "棉服/羽绒服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9762,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "运动裤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9766,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "套装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9767,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "运动包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 9768,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "运动配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 1363,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "运动装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 1361,
+          "leaf" : true,
+          "orderNo" : 1361
+        }, {
+          "children" : [ ],
+          "name" : "运动鞋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1344,
+          "cid" : 1362,
+          "leaf" : true,
+          "orderNo" : 1362
+        } ],
+        "name" : "运动",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1315,
+        "cid" : 1344,
+        "leaf" : false,
+        "orderNo" : 1344
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "太阳镜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9790,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "框镜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9789,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "皮带",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9788,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "围巾",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 1376,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "手套",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 1377,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "帽子",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 1375,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "领带",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 3984,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "袖扣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 1378,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "其他配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9797,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "丝巾",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9786,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "披肩",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9787,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "腰带",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 1374,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "腰链/腰封",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9791,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "棒球帽",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9792,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "毛线",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9793,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "遮阳帽",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9794,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "防紫外线手套",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9795,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "草帽",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 9796,
+          "leaf" : true,
+          "orderNo" : 18
+        }, {
+          "children" : [ ],
+          "name" : "眼镜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1346,
+          "cid" : 1373,
+          "leaf" : true,
+          "orderNo" : 1373
+        } ],
+        "name" : "配饰",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1315,
+        "cid" : 1346,
+        "leaf" : false,
+        "orderNo" : 1346
+      } ],
+      "name" : "服饰鞋帽",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1315,
+      "leaf" : false,
+      "orderNo" : 5
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "钱包/卡包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 2575,
+          "cid" : 2580,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "手拿包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 2575,
+          "cid" : 5256,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "单肩包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 2575,
+          "cid" : 5257,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "双肩包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 2575,
+          "cid" : 5258,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "手提包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 2575,
+          "cid" : 5259,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "斜挎包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 2575,
+          "cid" : 5260,
+          "leaf" : true,
+          "orderNo" : 6
+        } ],
+        "name" : "潮流女包",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1672,
+        "cid" : 2575,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "礼品箱包",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1672,
+      "leaf" : false,
+      "orderNo" : 7
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "洁面乳",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1389,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "爽肤水",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1390,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "精华露",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 5147,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "乳液面霜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1391,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "面膜面贴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1392,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "眼部护理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1393,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "颈部护理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1394,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "T区护理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1395,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "护肤套装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 1396,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "防晒隔离",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1381,
+          "cid" : 5160,
+          "leaf" : true,
+          "orderNo" : 10
+        } ],
+        "name" : "面部护理",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1316,
+        "cid" : 1381,
+        "leaf" : false,
+        "orderNo" : 1381
+      } ],
+      "name" : "个护化妆",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1316,
+      "leaf" : false,
+      "orderNo" : 7
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "帐篷",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1473,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "睡袋",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1474,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "登山攀岩",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1475,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "户外背包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1472,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "户外照明",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1476,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "户外垫子",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 2630,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "户外仪表",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 2631,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "户外工具",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1479,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "望远镜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1480,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "垂钓用品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1481,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "旅游用品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 2691,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "便携桌椅床",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1478,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "烧烤用品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 2636,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "野餐炊具",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1477,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "军迷用品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 5152,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "游泳用具",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1482,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "泳衣",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 2632,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "户外服饰",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 1470,
+          "leaf" : true,
+          "orderNo" : 1470
+        }, {
+          "children" : [ ],
+          "name" : "泳镜/泳帽",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 2633,
+          "leaf" : true,
+          "orderNo" : 1485
+        }, {
+          "children" : [ ],
+          "name" : "泳圈玩具",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1462,
+          "cid" : 2634,
+          "leaf" : true,
+          "orderNo" : 1486
+        } ],
+        "name" : "户外装备",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1318,
+        "cid" : 1462,
+        "leaf" : false,
+        "orderNo" : 1462
+      } ],
+      "name" : "运动健康",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1318,
+      "leaf" : false,
+      "orderNo" : 8
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "婴儿服",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6313,
+          "cid" : 6314,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "婴儿家居",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6313,
+          "cid" : 6316,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "婴儿鞋袜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6313,
+          "cid" : 6315,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "安全用品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6313,
+          "cid" : 6317,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "其他",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6313,
+          "cid" : 6318,
+          "leaf" : true,
+          "orderNo" : 5
+        } ],
+        "name" : "婴儿家居服饰",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1319,
+        "cid" : 6313,
+        "leaf" : false,
+        "orderNo" : 7
+      } ],
+      "name" : "母婴",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1319,
+      "leaf" : false,
+      "orderNo" : 9
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "便携GPS导航",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6748,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "嵌入式导航",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 9958,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "安全预警仪",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 9959,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "行车记录仪",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6964,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "跟踪防盗器",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 9960,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "倒车雷达",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 9961,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "车载电源",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6749,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "车载蓝牙",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 9962,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "车载影音",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6965,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "车载净化器",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6807,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "车载冰箱",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6753,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "车载吸尘器",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6752,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "充气泵",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6751,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "胎压监测",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6750,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "车载生活电器",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6740,
+          "cid" : 6808,
+          "leaf" : true,
+          "orderNo" : 15
+        } ],
+        "name" : "电子电器",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 6728,
+        "cid" : 6740,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "汽车用品",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 6728,
+      "leaf" : false,
+      "orderNo" : 9
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "新疆",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 1589,
+          "leaf" : true,
+          "orderNo" : 1589
+        }, {
+          "children" : [ ],
+          "name" : "北京",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2644,
+          "leaf" : true,
+          "orderNo" : 1590
+        }, {
+          "children" : [ ],
+          "name" : "天津",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2645,
+          "leaf" : true,
+          "orderNo" : 1591
+        }, {
+          "children" : [ ],
+          "name" : "河北",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2646,
+          "leaf" : true,
+          "orderNo" : 1592
+        }, {
+          "children" : [ ],
+          "name" : "山西",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2647,
+          "leaf" : true,
+          "orderNo" : 1593
+        }, {
+          "children" : [ ],
+          "name" : "内蒙古",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2648,
+          "leaf" : true,
+          "orderNo" : 1593
+        }, {
+          "children" : [ ],
+          "name" : "山东",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2649,
+          "leaf" : true,
+          "orderNo" : 1594
+        }, {
+          "children" : [ ],
+          "name" : "江苏",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2650,
+          "leaf" : true,
+          "orderNo" : 1595
+        }, {
+          "children" : [ ],
+          "name" : "安徽",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2651,
+          "leaf" : true,
+          "orderNo" : 1595
+        }, {
+          "children" : [ ],
+          "name" : "浙江",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2652,
+          "leaf" : true,
+          "orderNo" : 1596
+        }, {
+          "children" : [ ],
+          "name" : "上海",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2654,
+          "leaf" : true,
+          "orderNo" : 1597
+        }, {
+          "children" : [ ],
+          "name" : "福建",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2653,
+          "leaf" : true,
+          "orderNo" : 1597
+        }, {
+          "children" : [ ],
+          "name" : "湖北",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2655,
+          "leaf" : true,
+          "orderNo" : 1598
+        }, {
+          "children" : [ ],
+          "name" : "湖南",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2656,
+          "leaf" : true,
+          "orderNo" : 1599
+        }, {
+          "children" : [ ],
+          "name" : "河南",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2657,
+          "leaf" : true,
+          "orderNo" : 1600
+        }, {
+          "children" : [ ],
+          "name" : "江西",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2658,
+          "leaf" : true,
+          "orderNo" : 1601
+        }, {
+          "children" : [ ],
+          "name" : "陕西",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2659,
+          "leaf" : true,
+          "orderNo" : 1602
+        }, {
+          "children" : [ ],
+          "name" : "甘肃",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2660,
+          "leaf" : true,
+          "orderNo" : 1603
+        }, {
+          "children" : [ ],
+          "name" : "青海",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2661,
+          "leaf" : true,
+          "orderNo" : 1604
+        }, {
+          "children" : [ ],
+          "name" : "吉林",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2664,
+          "leaf" : true,
+          "orderNo" : 1605
+        }, {
+          "children" : [ ],
+          "name" : "辽宁",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2665,
+          "leaf" : true,
+          "orderNo" : 1605
+        }, {
+          "children" : [ ],
+          "name" : "黑龙江",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2663,
+          "leaf" : true,
+          "orderNo" : 1605
+        }, {
+          "children" : [ ],
+          "name" : "宁夏",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2662,
+          "leaf" : true,
+          "orderNo" : 1605
+        }, {
+          "children" : [ ],
+          "name" : "西藏",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2672,
+          "leaf" : true,
+          "orderNo" : 1606
+        }, {
+          "children" : [ ],
+          "name" : "云南",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2670,
+          "leaf" : true,
+          "orderNo" : 1606
+        }, {
+          "children" : [ ],
+          "name" : "贵州",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2671,
+          "leaf" : true,
+          "orderNo" : 1606
+        }, {
+          "children" : [ ],
+          "name" : "四川",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2669,
+          "leaf" : true,
+          "orderNo" : 1606
+        }, {
+          "children" : [ ],
+          "name" : "海南",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2668,
+          "leaf" : true,
+          "orderNo" : 1606
+        }, {
+          "children" : [ ],
+          "name" : "广西",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2667,
+          "leaf" : true,
+          "orderNo" : 1606
+        }, {
+          "children" : [ ],
+          "name" : "广东",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2666,
+          "leaf" : true,
+          "orderNo" : 1606
+        }, {
+          "children" : [ ],
+          "name" : "重庆",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 2673,
+          "leaf" : true,
+          "orderNo" : 1607
+        }, {
+          "children" : [ ],
+          "name" : "华北",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 4690,
+          "leaf" : true,
+          "orderNo" : 1608
+        }, {
+          "children" : [ ],
+          "name" : "西北",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 4691,
+          "leaf" : true,
+          "orderNo" : 1609
+        }, {
+          "children" : [ ],
+          "name" : "西南",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 4692,
+          "leaf" : true,
+          "orderNo" : 1610
+        }, {
+          "children" : [ ],
+          "name" : "东北",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 4693,
+          "leaf" : true,
+          "orderNo" : 1611
+        }, {
+          "children" : [ ],
+          "name" : "华南",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 4694,
+          "leaf" : true,
+          "orderNo" : 1612
+        }, {
+          "children" : [ ],
+          "name" : "华东",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 4695,
+          "leaf" : true,
+          "orderNo" : 1613
+        }, {
+          "children" : [ ],
+          "name" : "华中",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 1581,
+          "cid" : 4696,
+          "leaf" : true,
+          "orderNo" : 1614
+        } ],
+        "name" : "地方特产",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 1320,
+        "cid" : 1581,
+        "leaf" : false,
+        "orderNo" : 1581
+      } ],
+      "name" : "食品饮料、保健食品",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 1320,
+      "leaf" : false,
+      "orderNo" : 10
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "燕窝雪蛤",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6338,
+          "cid" : 6446,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "灵芝仙草",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6338,
+          "cid" : 6444,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "药膳古方",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6338,
+          "cid" : 6445,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "冬虫夏草",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6338,
+          "cid" : 6442,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "人参鹿茸",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6338,
+          "cid" : 6443,
+          "leaf" : true,
+          "orderNo" : 0
+        } ],
+        "name" : "参茸滋补",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 6322,
+        "cid" : 6338,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "养生保健",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 6322,
+      "leaf" : false,
+      "orderNo" : 11
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "国内机票",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4939,
+          "cid" : 4940,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "测试分类",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4939,
+          "cid" : 2504798,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "国外机票",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4939,
+          "cid" : 7072,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "手机流量充值",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4939,
+          "cid" : 2504616,
+          "leaf" : true,
+          "orderNo" : 2
+        } ],
+        "name" : "机票",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 4938,
+        "cid" : 4939,
+        "leaf" : false,
+        "orderNo" : 1
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "手机充值",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4941,
+          "cid" : 4833,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "京东转售充值专用",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4941,
+          "cid" : 12095,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "游戏装备",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 4941,
+          "cid" : 7073,
+          "leaf" : true,
+          "orderNo" : 4
+        } ],
+        "name" : "充值",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 4938,
+        "cid" : 4941,
+        "leaf" : false,
+        "orderNo" : 2
+      }, {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "游戏点卡",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9394,
+          "cid" : 4835,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "QQ充值",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9394,
+          "cid" : 4836,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "游戏周边",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9394,
+          "cid" : 9392,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "单机游戏数字版",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9394,
+          "cid" : 9393,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "手机游戏",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9394,
+          "cid" : 2504684,
+          "leaf" : true,
+          "orderNo" : 7
+        } ],
+        "name" : "游戏",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 4938,
+        "cid" : 9394,
+        "leaf" : false,
+        "orderNo" : 7
+      } ],
+      "name" : "机票、充值",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 4938,
+      "leaf" : false,
+      "orderNo" : 13
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "眼部护理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6355,
+          "cid" : 6544,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "T区护理",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6355,
+          "cid" : 6545,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "爽肤水",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6355,
+          "cid" : 6541,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "洁面乳",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6355,
+          "cid" : 6540,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "面膜面贴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6355,
+          "cid" : 6543,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "乳液面霜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6355,
+          "cid" : 6542,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "护肤套装",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6355,
+          "cid" : 6546,
+          "leaf" : true,
+          "orderNo" : 0
+        } ],
+        "name" : "面部护理",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 6325,
+        "cid" : 6355,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "药妆护理",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 6325,
+      "leaf" : false,
+      "orderNo" : 15
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "依波",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5097,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "格雅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5068,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "伯尼 BERNY",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5069,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "精准 XONIX",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5070,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "百圣牛",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5071,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "欧曼巴",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5072,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "JOJO",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5073,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "聚利时 Julius",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5074,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "天王表",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5075,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "飞亚达",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5076,
+          "leaf" : true,
+          "orderNo" : 10
+        }, {
+          "children" : [ ],
+          "name" : "缤果 Benko",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5077,
+          "leaf" : true,
+          "orderNo" : 11
+        }, {
+          "children" : [ ],
+          "name" : "海鸥",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5078,
+          "leaf" : true,
+          "orderNo" : 12
+        }, {
+          "children" : [ ],
+          "name" : "卡纳 kana",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5079,
+          "leaf" : true,
+          "orderNo" : 13
+        }, {
+          "children" : [ ],
+          "name" : "凯帝龙",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5080,
+          "leaf" : true,
+          "orderNo" : 14
+        }, {
+          "children" : [ ],
+          "name" : "依时名表 EASMAN",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5081,
+          "leaf" : true,
+          "orderNo" : 15
+        }, {
+          "children" : [ ],
+          "name" : "天霸表",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5082,
+          "leaf" : true,
+          "orderNo" : 16
+        }, {
+          "children" : [ ],
+          "name" : "a-life",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5083,
+          "leaf" : true,
+          "orderNo" : 17
+        }, {
+          "children" : [ ],
+          "name" : "汤斯敦 TUNGSTEN",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5084,
+          "leaf" : true,
+          "orderNo" : 18
+        }, {
+          "children" : [ ],
+          "name" : "汉时 Hense",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 5085,
+          "leaf" : true,
+          "orderNo" : 19
+        }, {
+          "children" : [ ],
+          "name" : "鹏志",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6727,
+          "leaf" : true,
+          "orderNo" : 20
+        }, {
+          "children" : [ ],
+          "name" : "北京beijing",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6729,
+          "leaf" : true,
+          "orderNo" : 21
+        }, {
+          "children" : [ ],
+          "name" : "odm",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6730,
+          "leaf" : true,
+          "orderNo" : 22
+        }, {
+          "children" : [ ],
+          "name" : "罗西尼",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6854,
+          "leaf" : true,
+          "orderNo" : 23
+        }, {
+          "children" : [ ],
+          "name" : "雷诺（RARONE）",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6855,
+          "leaf" : true,
+          "orderNo" : 24
+        }, {
+          "children" : [ ],
+          "name" : "世家 SAGA",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6856,
+          "leaf" : true,
+          "orderNo" : 25
+        }, {
+          "children" : [ ],
+          "name" : "J-three",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6863,
+          "leaf" : true,
+          "orderNo" : 26
+        }, {
+          "children" : [ ],
+          "name" : "EC",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6866,
+          "leaf" : true,
+          "orderNo" : 27
+        }, {
+          "children" : [ ],
+          "name" : "时诺比",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6879,
+          "leaf" : true,
+          "orderNo" : 28
+        }, {
+          "children" : [ ],
+          "name" : "北斗授时",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6898,
+          "leaf" : true,
+          "orderNo" : 29
+        }, {
+          "children" : [ ],
+          "name" : "宜准 EZON",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6922,
+          "leaf" : true,
+          "orderNo" : 30
+        }, {
+          "children" : [ ],
+          "name" : "依宝诺 EBONO",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6988,
+          "leaf" : true,
+          "orderNo" : 31
+        }, {
+          "children" : [ ],
+          "name" : "奥迪斯OTS",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6989,
+          "leaf" : true,
+          "orderNo" : 32
+        }, {
+          "children" : [ ],
+          "name" : "时空",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6990,
+          "leaf" : true,
+          "orderNo" : 33
+        }, {
+          "children" : [ ],
+          "name" : "万维WANVI",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 6991,
+          "leaf" : true,
+          "orderNo" : 34
+        }, {
+          "children" : [ ],
+          "name" : "关帝",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7051,
+          "leaf" : true,
+          "orderNo" : 35
+        }, {
+          "children" : [ ],
+          "name" : "莱茵",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7114,
+          "leaf" : true,
+          "orderNo" : 36
+        }, {
+          "children" : [ ],
+          "name" : "斯诺威登",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7117,
+          "leaf" : true,
+          "orderNo" : 37
+        }, {
+          "children" : [ ],
+          "name" : "劳士顿",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7118,
+          "leaf" : true,
+          "orderNo" : 38
+        }, {
+          "children" : [ ],
+          "name" : "斯诺威登",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7128,
+          "leaf" : true,
+          "orderNo" : 39
+        }, {
+          "children" : [ ],
+          "name" : "时光倒流",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7180,
+          "leaf" : true,
+          "orderNo" : 40
+        }, {
+          "children" : [ ],
+          "name" : "时间故事",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7179,
+          "leaf" : true,
+          "orderNo" : 40
+        }, {
+          "children" : [ ],
+          "name" : "雨花妮雅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7181,
+          "leaf" : true,
+          "orderNo" : 41
+        }, {
+          "children" : [ ],
+          "name" : "康巴丝",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7182,
+          "leaf" : true,
+          "orderNo" : 42
+        }, {
+          "children" : [ ],
+          "name" : "兰博",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7183,
+          "leaf" : true,
+          "orderNo" : 42
+        }, {
+          "children" : [ ],
+          "name" : "TOPHILL",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7186,
+          "leaf" : true,
+          "orderNo" : 43
+        }, {
+          "children" : [ ],
+          "name" : "亚时达 EISTA",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7187,
+          "leaf" : true,
+          "orderNo" : 43
+        }, {
+          "children" : [ ],
+          "name" : "变型虫 AMOEBA",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7188,
+          "leaf" : true,
+          "orderNo" : 44
+        }, {
+          "children" : [ ],
+          "name" : "爱朗",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7398,
+          "leaf" : true,
+          "orderNo" : 45
+        }, {
+          "children" : [ ],
+          "name" : "时尚",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 7399,
+          "leaf" : true,
+          "orderNo" : 45
+        }, {
+          "children" : [ ],
+          "name" : "上海",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9251,
+          "leaf" : true,
+          "orderNo" : 46
+        }, {
+          "children" : [ ],
+          "name" : "宾格",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9383,
+          "leaf" : true,
+          "orderNo" : 47
+        }, {
+          "children" : [ ],
+          "name" : "晨曦CHENXI",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9384,
+          "leaf" : true,
+          "orderNo" : 47
+        }, {
+          "children" : [ ],
+          "name" : "时加达S2SQURE",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9385,
+          "leaf" : true,
+          "orderNo" : 48
+        }, {
+          "children" : [ ],
+          "name" : "适时蔻XXCOM",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9386,
+          "leaf" : true,
+          "orderNo" : 49
+        }, {
+          "children" : [ ],
+          "name" : "古尊",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9398,
+          "leaf" : true,
+          "orderNo" : 50
+        }, {
+          "children" : [ ],
+          "name" : "雷迈",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9409,
+          "leaf" : true,
+          "orderNo" : 51
+        }, {
+          "children" : [ ],
+          "name" : "司博威Spovan",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9410,
+          "leaf" : true,
+          "orderNo" : 51
+        }, {
+          "children" : [ ],
+          "name" : "孚仕",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9419,
+          "leaf" : true,
+          "orderNo" : 52
+        }, {
+          "children" : [ ],
+          "name" : "时光爱客  Actimer",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9421,
+          "leaf" : true,
+          "orderNo" : 53
+        }, {
+          "children" : [ ],
+          "name" : "时间由你",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9422,
+          "leaf" : true,
+          "orderNo" : 54
+        }, {
+          "children" : [ ],
+          "name" : "大宏",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9424,
+          "leaf" : true,
+          "orderNo" : 55
+        }, {
+          "children" : [ ],
+          "name" : "PGT",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9423,
+          "leaf" : true,
+          "orderNo" : 55
+        }, {
+          "children" : [ ],
+          "name" : "蒂玮娜",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9426,
+          "leaf" : true,
+          "orderNo" : 56
+        }, {
+          "children" : [ ],
+          "name" : "路卡波斯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9425,
+          "leaf" : true,
+          "orderNo" : 56
+        }, {
+          "children" : [ ],
+          "name" : "谛诺",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9427,
+          "leaf" : true,
+          "orderNo" : 57
+        }, {
+          "children" : [ ],
+          "name" : "天运",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9428,
+          "leaf" : true,
+          "orderNo" : 58
+        }, {
+          "children" : [ ],
+          "name" : "DRH",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9473,
+          "leaf" : true,
+          "orderNo" : 59
+        }, {
+          "children" : [ ],
+          "name" : "超盘 powerdisk",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9472,
+          "leaf" : true,
+          "orderNo" : 59
+        }, {
+          "children" : [ ],
+          "name" : "宝时捷",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9506,
+          "leaf" : true,
+          "orderNo" : 60
+        }, {
+          "children" : [ ],
+          "name" : "飞迪",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9507,
+          "leaf" : true,
+          "orderNo" : 60
+        }, {
+          "children" : [ ],
+          "name" : "精铁时",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9508,
+          "leaf" : true,
+          "orderNo" : 61
+        }, {
+          "children" : [ ],
+          "name" : "枫叶",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9510,
+          "leaf" : true,
+          "orderNo" : 62
+        }, {
+          "children" : [ ],
+          "name" : "迪翎",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9509,
+          "leaf" : true,
+          "orderNo" : 62
+        }, {
+          "children" : [ ],
+          "name" : "野狼军表 Yelang",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9539,
+          "leaf" : true,
+          "orderNo" : 63
+        }, {
+          "children" : [ ],
+          "name" : "蓝顿豪爵HOJUT",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9541,
+          "leaf" : true,
+          "orderNo" : 64
+        }, {
+          "children" : [ ],
+          "name" : "北斗",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9550,
+          "leaf" : true,
+          "orderNo" : 65
+        }, {
+          "children" : [ ],
+          "name" : "宾伦BINLUN",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9551,
+          "leaf" : true,
+          "orderNo" : 80
+        }, {
+          "children" : [ ],
+          "name" : "雷欧时",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9558,
+          "leaf" : true,
+          "orderNo" : 81
+        }, {
+          "children" : [ ],
+          "name" : "赫菲斯托斯 Hephaestus",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9559,
+          "leaf" : true,
+          "orderNo" : 82
+        }, {
+          "children" : [ ],
+          "name" : "圣伯莱",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9560,
+          "leaf" : true,
+          "orderNo" : 83
+        }, {
+          "children" : [ ],
+          "name" : "金伯利",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9567,
+          "leaf" : true,
+          "orderNo" : 84
+        }, {
+          "children" : [ ],
+          "name" : "宝舵 BOWDOR",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9662,
+          "leaf" : true,
+          "orderNo" : 85
+        }, {
+          "children" : [ ],
+          "name" : "品瓷",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9996,
+          "leaf" : true,
+          "orderNo" : 86
+        }, {
+          "children" : [ ],
+          "name" : "名梭",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9997,
+          "leaf" : true,
+          "orderNo" : 87
+        }, {
+          "children" : [ ],
+          "name" : "艾格迩 AIGEER",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 9998,
+          "leaf" : true,
+          "orderNo" : 88
+        }, {
+          "children" : [ ],
+          "name" : "富喜达 FUCDA",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 10000,
+          "leaf" : true,
+          "orderNo" : 89
+        }, {
+          "children" : [ ],
+          "name" : "广州  GUANGZHOU",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 10001,
+          "leaf" : true,
+          "orderNo" : 90
+        }, {
+          "children" : [ ],
+          "name" : "迪仕蒙  DIXMONT",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 5027,
+          "cid" : 10002,
+          "leaf" : true,
+          "orderNo" : 91
+        } ],
+        "name" : "国产品牌",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 5025,
+        "cid" : 5027,
+        "leaf" : false,
+        "orderNo" : 2
+      } ],
+      "name" : "钟表",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 5025,
+      "leaf" : false,
+      "orderNo" : 15
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "项链",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6188,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "手链/脚链",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6189,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "戒指",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6190,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "耳饰",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6191,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "头饰",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6192,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "胸针",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6193,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "婚庆饰品",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6194,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "饰品配件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6182,
+          "cid" : 6195,
+          "leaf" : true,
+          "orderNo" : 8
+        } ],
+        "name" : "时尚饰品",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 6144,
+        "cid" : 6182,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "珠宝首饰",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 6144,
+      "leaf" : false,
+      "orderNo" : 17
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "炒锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6199,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "煎锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6200,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "压力锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6201,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "蒸锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6202,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "汤锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6203,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "奶锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6204,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "套锅",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6205,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "煲类",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6206,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "水壶",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6207,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "厨用杂件",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6197,
+          "cid" : 6208,
+          "leaf" : true,
+          "orderNo" : 10
+        } ],
+        "name" : "烹饪锅具",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 6196,
+        "cid" : 6197,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "厨具",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 6196,
+      "leaf" : false,
+      "orderNo" : 18
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "退烧发热",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6326,
+          "cid" : 6362,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "清热解毒",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6326,
+          "cid" : 6363,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "解热镇痛",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6326,
+          "cid" : 6361,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "泻火祛暑",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6326,
+          "cid" : 6364,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "病毒性感冒",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6326,
+          "cid" : 6360,
+          "leaf" : true,
+          "orderNo" : 0
+        }, {
+          "children" : [ ],
+          "name" : "风寒风热",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6326,
+          "cid" : 6359,
+          "leaf" : true,
+          "orderNo" : 0
+        } ],
+        "name" : "感冒用药",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 6321,
+        "cid" : 6326,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "药品",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 6321,
+      "leaf" : false,
+      "orderNo" : 20
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "手机充值",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 26949,
+          "cid" : 26950,
+          "leaf" : true,
+          "orderNo" : 0
+        } ],
+        "name" : "充值",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 26948,
+        "cid" : 26949,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "机票、彩票、充值、票务",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 26948,
+      "leaf" : false,
+      "orderNo" : 24
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "狗粮",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6995,
+          "cid" : 7002,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "猫粮",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6995,
+          "cid" : 7003,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "猫狗罐头",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6995,
+          "cid" : 7004,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "猫狗妙鲜包",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6995,
+          "cid" : 7005,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "其它",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 6995,
+          "cid" : 9173,
+          "leaf" : true,
+          "orderNo" : 5
+        } ],
+        "name" : "宠物主粮",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 6994,
+        "cid" : 6995,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "宠物生活",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 6994,
+      "leaf" : false,
+      "orderNo" : 25
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "Bar Phones",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7401,
+          "cid" : 7713,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "Flip/Slide Phones",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7401,
+          "cid" : 8140,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "Cases & Covers",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7401,
+          "cid" : 7866,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "Watch Phones",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7401,
+          "cid" : 9041,
+          "leaf" : true,
+          "orderNo" : 3
+        } ],
+        "name" : "Cell Phones",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 7376,
+        "cid" : 7401,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "Cell phones & Accessories",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 7376,
+      "leaf" : false,
+      "orderNo" : 28
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "Keyboards",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 8355,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "Mice",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 8454,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "Keyboard & Mice Combos",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 8353,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "Mice Pads",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 8455,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "Webcams",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 9049,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "Numeric Key Pads",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 8505,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "Graphics Tablets",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 8215,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "Writing Pads",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 9094,
+          "leaf" : true,
+          "orderNo" : 9
+        }, {
+          "children" : [ ],
+          "name" : "Others",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 7413,
+          "cid" : 8533,
+          "leaf" : true,
+          "orderNo" : 10
+        } ],
+        "name" : "Keyboards, Mice & Input Devices",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 7379,
+        "cid" : 7413,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "Computers & Accessories",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 7379,
+      "leaf" : false,
+      "orderNo" : 30
+    }, {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "name" : "台灯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9898,
+          "leaf" : true,
+          "orderNo" : 1
+        }, {
+          "children" : [ ],
+          "name" : "节能灯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9899,
+          "leaf" : true,
+          "orderNo" : 2
+        }, {
+          "children" : [ ],
+          "name" : "装饰灯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9900,
+          "leaf" : true,
+          "orderNo" : 3
+        }, {
+          "children" : [ ],
+          "name" : "落地灯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9901,
+          "leaf" : true,
+          "orderNo" : 4
+        }, {
+          "children" : [ ],
+          "name" : "应急灯/手电",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9902,
+          "leaf" : true,
+          "orderNo" : 5
+        }, {
+          "children" : [ ],
+          "name" : "LED灯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9903,
+          "leaf" : true,
+          "orderNo" : 6
+        }, {
+          "children" : [ ],
+          "name" : "吸顶灯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9904,
+          "leaf" : true,
+          "orderNo" : 7
+        }, {
+          "children" : [ ],
+          "name" : "氛围照明",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9905,
+          "leaf" : true,
+          "orderNo" : 8
+        }, {
+          "children" : [ ],
+          "name" : "吊灯",
+          "status" : 1,
+          "level" : 3,
+          "venderId" : 20032,
+          "parentId" : 9856,
+          "cid" : 9906,
+          "leaf" : true,
+          "orderNo" : 9
+        } ],
+        "name" : "灯饰照明",
+        "status" : 1,
+        "level" : 2,
+        "venderId" : 20032,
+        "parentId" : 9855,
+        "cid" : 9856,
+        "leaf" : false,
+        "orderNo" : 1
+      } ],
+      "name" : "家装建材",
+      "status" : 1,
+      "level" : 1,
+      "venderId" : 20032,
+      "parentId" : 0,
+      "cid" : 9855,
+      "leaf" : false,
+      "orderNo" : 42
+    } ]
+  }
+}

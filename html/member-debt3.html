@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>债权中心-发布1</title>
+    <title>债权中心-发布3</title>
     <link rel="stylesheet" type="text/css" href="../skin/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/base.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/index.css"/>
@@ -127,12 +127,12 @@
                                 <i class="now">1</i>
                                 填写债权方信息
                             </li>
-                            <li>
-                                <i>2</i>
+                            <li class="now">
+                                <i class="now">2</i>
                                 填写债务方信息
                             </li>
-                            <li>
-                                <i>3</i>
+                            <li class="now">
+                                <i class="now">3</i>
                                 填写担保方信息
                             </li>
                             <li>
@@ -149,37 +149,57 @@
                 <!-- 切换身份-->
                 <div class="debt-main">
                     <div class="tab">
-                         <a class="current" href="javascript:;">发布债权信息</a>
+                        <a class="current" href="javascript:;">发布债权信息</a>
                         <a href="javascript:;">发布资产包</a>
                     </div>
                     <p class="read-tips">请认真阅读一下文字：处置方需要全面了解您的债权情况，请您认真填写。我们会保护您的隐私，关键信息我们会做模糊处理。带星号（*）的为必填项；</p>
                     <div class="debt-wrapper">
                         <p>
-                            <label><span class="yellowtxt">*</span>债权类型：</label>
-                            <input type="radio" name="zqlx"/>个人
-                            <input type="radio" name="zqlx" checked/>企业
-                            <input type="radio" name="zqlx"/>银行
-                        </p>
-                        <p class="yellowtips"><span class="yellowtxt">温馨提示：</span>以上如有不能选定的类型,请到会员中心首页完善对应的身份认证</p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>是否投保：</label>
+                            <label><span class="yellowtxt">*</span>是否有担保：</label>
                             <input type="radio" name="zqlx"/>是
                             <input type="radio" name="zqlx" checked/>否
                         </p>
-                        <p class="unit">
-                            <label><span class="yellowtxt">*</span>债券本金：</label>
+                        <p>
+                            <label><span class="yellowtxt">*</span>担保人能否联系：</label>
+                            <input type="radio" name="zqlx"/>能
+                            <input type="radio" name="zqlx" checked/>不能
+                        </p>
+                        <p>
+                            <label><span class="yellowtxt">*</span>担保人经济状况：</label>
+                            <input type="radio" name="zqlx"/>好
+                            <input type="radio" name="zqlx"/>一般
+                            <input type="radio" name="zqlx"/>较差
+                            <input type="radio" name="zqlx" checked/>不清楚
+                        </p>
+                        <p>
+                            <label><span class="yellowtxt">*</span>抵押物能否盖过债务：</label>
+                            <input type="radio" name="zqlx"/>能
+                            <input type="radio" name="zqlx"/>不能
+                            <input type="radio" name="zqlx" checked/>未评估
+                        </p>
+                        <p>
+                            <label><span class="yellowtxt">*</span>担保方式：</label>
+                            <input type="radio" name="zqlx"/>他人担保
+                            <input type="radio" name="zqlx" checked/>担保公司
+                        </p>
+                        <p>
+                            <label><span class="yellowtxt">*</span>担保人姓名：</label>
                             <input type="text" name=""/>
                         </p>
                         <p>
-                            <label><span class="yellowtxt">*</span>借款时间：</label>
-                            <input  class="laydate-icon" type="text" name="orderBeginTime" id="laydate-start" >
+                            <label><span class="yellowtxt">*</span>担保人联系电话：</label>
+                            <input type="text" name=""/>
                         </p>
                         <p>
-                            <label><span class="yellowtxt">*</span>还款时间：</label>
-                            <input  class="laydate-icon" type="text" name="orderBeginTime" id="laydate-end" >
+                            <label><span class="yellowtxt">*</span>与担保人关系：</label>
+                            <input type="radio" name="zqlx"/>朋友
+                            <input type="radio" name="zqlx" checked/>亲戚
+                            <input type="radio" name="zqlx"/>同学
+                            <input type="radio" name="zqlx"/>同事
+                            <input type="radio" name="zqlx"/>其他
                         </p>
                         <p>
-                            <label><span class="yellowtxt">*</span>债权发生地：</label>
+                            <label><span class="yellowtxt">*</span>担保人现居地：</label>
                             <div class="choose-area">
                                 <select>
                                     <option>市</option>
@@ -191,81 +211,13 @@
                                     <option>街</option>
                                 </select>
                             </div>
-                            
                         </p>
-
-
-                        <div class="pay-table-area">
-                            <label><span class="yellowtxt">*</span>期望处置方式及回报:</label>
-                            <div>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td>逾期时间（天）</td>
-                                            <td>90</td>
-                                            <td>90-180</td>
-                                            <td>180-360</td>
-                                            <td>>360</td>
-                                            <td>失联</td>
-                                            <td>其他特殊情况</td>
-                                        </tr>
-                                        <tr>
-                                            <td>报酬比例（%）</td>
-                                            <td>5</td>
-                                            <td>10</td>
-                                            <td>20</td>
-                                            <td>30</td>
-                                            <td>40</td>
-                                            <td>另行增加报酬</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p>
-                                <input type="radio" name="zqlx"/>诉讼催收
-                                <input type="radio" name="zqlx" checked/>非诉催收
-                                <input type="radio" name="zqlx"/>债权转让
-                            </p>
-                            <p class="unit-per">
-                                <input type="text" name="" placeholder="报酬比例" />
-                            </p>
-                        </div>
-                        <div class="upload clear">
-                            <label>上传法人手持证件照片：</label>
-                            <div class="img-box">点击添加</div>
-                            <div class="upload-btn-tips">
-                                <div class="upload-btn">上传</div>
-                                <p class="upload-tips">
-                                    大小不超过2M
-                                    <br>
-                                    支持JPG/JPEG/GIF格式
-                                </p>
-                            </div>
-                        </div>
-                        <div class="upload clear">
-                            <label>上传身份证正反面：</label>
-                            <div class="img-box">点击添加</div>
-                            <div class="upload-btn-tips">
-                                <div class="upload-btn">上传</div>
-                                <p class="upload-tips">
-                                    大小不超过2M
-                                    <br>
-                                    支持JPG/JPEG/GIF格式
-                                </p>
-                            </div>
-                        </div>
                         
-                        <!-- 富文本编辑器 -->
-                         <label class="nic-label">债券描述：</label>
-                        <div class="nic_edit">
-                            <textarea data-sort="spu" id="editor_nicEditor" name="pcDes" style="width: 600px;height: 300px;"></textarea>
-                        </div>
-
-
+                        
 
                         <div class="btn-area">
                             <div class="submit-btn">下一步</div>
-                            <div class="cancle-btn">取消</div>
+                            <div class="cancle-btn">上一步</div>
                         </div>
                     </div>
 
