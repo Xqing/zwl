@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>认证中心-债权方信息-个人</title>
+    <title>认证中心-债权方信息-企业</title>
     <link rel="stylesheet" type="text/css" href="../skin/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/base.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/index.css"/>
@@ -143,20 +143,24 @@
                     <div class="certi-wrapper">
                         <p>
                             <label>债权类型：</label>
-                            <input type="radio" name="zqlx" checked/>个人
-                            <input type="radio" name="zqlx"/>企业
+                            <input type="radio" name="zqlx"/>个人
+                            <input type="radio" name="zqlx" checked/>企业
                             <input type="radio" name="zqlx"/>银行
                         </p>
                         <p>
-                            <label>姓名：</label>
+                            <label>企业名称：</label>
                             <input type="text" name="" placeholder="李小龙"/>
                         </p>
                         <p>
-                            <label>身份证号：</label>
+                            <label>法人姓名：</label>
+                            <input type="text" name="" placeholder="李小龙"/>
+                        </p>
+                        <p>
+                            <label>法人身份证号：</label>
                             <input type="text" name="" placeholder="XXXX-XXXX-XXXX-XXXX"/>
                         </p>
                         <p>
-                            <label>现居住地：</label>
+                            <label>企业所在地：</label>
                             <select>
                                 <option>市</option>
                             </select>
@@ -168,10 +172,7 @@
                             </select>
                         </p>
                         <div class="upload clear">
-                            <label>上传手持证件照片：</label>
-                            <div class="img-area">
-                                <img src="../img/img04.jpg">
-                            </div>
+                            <label>上传法人手持证件照片：</label>
                             <div class="img-box">点击添加</div>
                             <div class="upload-btn-tips">
                                 <div class="upload-btn">上传</div>
@@ -184,9 +185,6 @@
                         </div>
                         <div class="upload clear">
                             <label>上传身份证正反面：</label>
-                            <div class="img-area">
-                                <img src="../img/img04.jpg">
-                            </div>
                             <div class="img-box">点击添加</div>
                             <div class="upload-btn-tips">
                                 <div class="upload-btn">上传</div>
@@ -196,6 +194,31 @@
                                     支持JPG/JPEG/GIF格式
                                 </p>
                             </div>
+                        </div>
+                        <div class="upload clear">
+                            <label>上传营业执照：</label>
+                            <div class="img-box">点击添加</div>
+                            <div class="upload-btn-tips">
+                                <div class="upload-btn">上传</div>
+                                <p class="upload-tips">
+                                    大小不超过2M
+                                    <br>
+                                    支持JPG/JPEG/GIF格式
+                                </p>
+                            </div>
+                        </div>
+                        <div class="upload clear">
+                            <label>上传企业公章：</label>
+                            <div class="img-box">点击添加</div>
+                            <div class="upload-btn-tips">
+                                <div class="upload-btn">上传</div>
+                                <p class="upload-tips">
+                                    大小不超过2M
+                                    <br>
+                                    支持JPG/JPEG/GIF格式
+                                </p>
+                            </div>
+
                         </div>
                         <p class="iagree">
                             <input type="checkbox">

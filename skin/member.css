@@ -150,7 +150,6 @@
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload {
   margin: 10px 0;
-  position: relative;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload .img-area {
   float: left;
@@ -172,6 +171,10 @@
   border: 1px dashed #cccccc;
   margin-left: 10px;
 }
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload .upload-btn-tips {
+  position: relative;
+  float: left;
+}
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload .upload-btn {
   height: 36px;
   width: 90px;
@@ -186,9 +189,10 @@
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload .upload-tips {
   color: #abb2ba;
   font-size: 12px;
-  position: absolute;
-  right: 148px;
+  right: -48px;
   top: 30px;
+  width: 140px;
+  position: absolute;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .iagree {
   font-size: 12px;
