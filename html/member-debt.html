@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="../skin/signin.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/member.css"/>
     <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/laydate/laydate.js"></script>
+    <script type="text/javascript" src="../js/nicEdit.js"></script>
     <script type="text/javascript" src="../js/uibind.js"></script>
     <script type="text/javascript" src="../js/index.js"></script>
 
@@ -163,20 +165,20 @@
                             <input type="radio" name="zqlx"/>是
                             <input type="radio" name="zqlx" checked/>否
                         </p>
-                        <p>
+                        <p class="unit">
                             <label><span class="yellowtxt">*</span>债券本金：</label>
-                            <input type="text" name="" placeholder="李小龙"/>
+                            <input type="text" name=""/>
                         </p>
                         <p>
-                            <label>联系电话：</label>
-                            <input type="text" name="" placeholder="13800001234"/>
+                            <label><span class="yellowtxt">*</span>借款时间：</label>
+                            <input  class="laydate-icon" type="text" name="orderBeginTime" id="laydate-start" >
                         </p>
                         <p>
-                            <label>法人身份证号：</label>
-                            <input type="text" name="" placeholder="XXXX-XXXX-XXXX-XXXX"/>
+                            <label><span class="yellowtxt">*</span>还款时间：</label>
+                            <input  class="laydate-icon" type="text" name="orderBeginTime" id="laydate-end" >
                         </p>
                         <p>
-                            <label>企业所在地：</label>
+                            <label><span class="yellowtxt">*</span>债权发生地：</label>
                             <select>
                                 <option>市</option>
                             </select>
@@ -187,11 +189,43 @@
                                 <option>街</option>
                             </select>
                         </p>
-                        <p>
-                            <label>资格认证：</label>
-                            <input type="radio" name="zqlx"/>五证
-                            <input type="radio" name="zqlx" checked/>三证合一
-                        </p>
+
+
+                        <div class="pay-table-area">
+                            <label><span class="yellowtxt">*</span>期望处置方式及回报:</label>
+                            <div>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>逾期时间（天）</td>
+                                            <td>90</td>
+                                            <td>90-180</td>
+                                            <td>180-360</td>
+                                            <td>>360</td>
+                                            <td>失联</td>
+                                            <td>其他特殊情况</td>
+                                        </tr>
+                                        <tr>
+                                            <td>报酬比例（%）</td>
+                                            <td>5</td>
+                                            <td>10</td>
+                                            <td>20</td>
+                                            <td>30</td>
+                                            <td>40</td>
+                                            <td>另行增加报酬</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p>
+                                <input type="radio" name="zqlx"/>诉讼催收
+                                <input type="radio" name="zqlx" checked/>非诉催收
+                                <input type="radio" name="zqlx"/>债权转让
+                            </p>
+                            <p class="unit-per">
+                                <input type="text" name="" placeholder="报酬比例" />
+                            </p>
+                        </div>
                         <div class="upload clear">
                             <label>上传法人手持证件照片：</label>
                             <div class="img-box">点击添加</div>
@@ -216,62 +250,17 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="upload clear">
-                            <label>上传营业执照：</label>
-                            <div class="img-box">点击添加</div>
-                            <div class="upload-btn-tips">
-                                <div class="upload-btn">上传</div>
-                                <p class="upload-tips">
-                                    大小不超过2M
-                                    <br>
-                                    支持JPG/JPEG/GIF格式
-                                </p>
-                            </div>
+                        
+                        <!-- 富文本编辑器 -->
+                         <label class="nic-label">债券描述：</label>
+                        <div class="nic_edit">
+                            <textarea data-sort="spu" id="editor_nicEditor" name="pcDes" style="width: 600px;height: 300px;"></textarea>
                         </div>
-                        <div class="upload clear">
-                            <label>上传企业公章：</label>
-                            <div class="img-box">点击添加</div>
-                            <div class="upload-btn-tips">
-                                <div class="upload-btn">上传</div>
-                                <p class="upload-tips">
-                                    大小不超过2M
-                                    <br>
-                                    支持JPG/JPEG/GIF格式
-                                </p>
-                            </div>
-                        </div>
-                        <p>
-                            <label>催收覆盖区域：</label>
-                            <select>
-                                <option>市</option>
-                            </select>
-                            <select>
-                                <option>区</option>
-                            </select>
-                            <select>
-                                <option>街</option>
-                            </select>
-                            <span class="add-adress">添加</span>
-                        </p>
-                        <div class="my-area">
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                        </div>
-                        <p>
-                            <label>擅长处置方式：</label>
-                            <input type="radio" name="zqlx"/>诉讼
-                            <input type="radio" name="zqlx" checked/>非诉
-                            <input type="radio" name="zqlx" />转让
-                        </p>
-                        <p class="iagree">
-                            <input type="checkbox">
-                            我已阅读并同意 <span class="bluetxt">《 债无虑网络平台服务合作协议 》</span>
-                        </p>
+
+
+
                         <div class="btn-area">
-                            <div class="submit-btn">提交</div>
+                            <div class="submit-btn">下一步</div>
                             <div class="cancle-btn">取消</div>
                         </div>
                     </div>
@@ -388,4 +377,12 @@
 
 
 </body>
+
+<script>
+    //富文本编辑器
+    var ab;
+    bkLib.onDomLoaded(function() {
+        ab = new nicEditor({fullPanel : true}).panelInstance('editor_nicEditor');
+    });
+</script>
 </html>

@@ -251,7 +251,7 @@
             color: #5d5d5d;
           }
           .btn-area{
-            margin-left: 160px;
+            margin-left: 170px;
             padding-bottom: 160px;
             div{
               height: 50px;
@@ -428,6 +428,126 @@
             background: url("i/i-tips.png") no-repeat 150px;
             margin-bottom: 50px;
           }
+          .unit{
+            position: relative;
+            &:after{
+              content: "万元";
+              position: absolute;
+              left: 430px;
+              top: 10px;
+              display: inline;
+              color: #cccccc;
+              font-size: 14px;
+            }
+          }
+          .pay-table-area{
+            table{
+              margin-left: 170px;
+              width: 730px;
+              border: 1px solid #cccccc;
+              text-align: center;
+              border-collapse: collapse;
+              border-spacing: 0;
+              tr{
+                height: 40px;
+                line-height: 40px;
+                &:first-child{
+                  color: #ffffff;
+                  background-color: #0063ab;
+                }
+              }
+            }
+            p{
+              margin-left: 160px;
+              &.unit-per{
+                position: relative;
+                margin-left: 170px;
+                &:after{
+                  content: "%";
+                  position: absolute;
+                  left: 280px;
+                  top: 10px;
+                  display: inline;
+                  color: #cccccc;
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          .upload{
+            margin: 10px 0;
+            .img-area{
+              float: left;
+              width: 240px;
+              height: 170px;
+              img{
+                height: 100%;
+                width: 100%;
+              }
+            }
+            .img-box{
+              float: left;
+              width: 240px;
+              height: 170px;
+              line-height: 170px;
+              text-align: center;
+              font-size: 16px;
+              color: #cccccc;
+              border: 1px dashed #cccccc;
+              margin-left: 10px;
+            }
+            .upload-btn-tips{
+              position: relative;
+              float: left;
+            }
+            .upload-btn{
+              height: 36px;
+              width: 90px;
+              line-height: 36px;
+              background-color: #ee7207;
+              color: #ffffff;
+              cursor: pointer;
+              float: left;
+              text-align: center;
+              margin-left: 10px;
+            }
+            .upload-tips{
+              color: #abb2ba;
+              font-size: 12px;
+              right: -48px;
+              top: 30px;
+              width: 140px;
+              position: absolute;
+            }
+          }
+          .nic-label{
+            margin-top: 20px;
+          }
+          .nic_edit{
+            margin: 30px 0 40px 170px;
+          }
+          .btn-area{
+            margin-left: 170px;
+            padding-bottom: 160px;
+            div{
+              height: 50px;
+              width: 150px;
+              line-height: 50px;
+              text-align: center;
+              float: left;
+              cursor: pointer;
+              &.submit-btn{
+                background-color: #ee7207;
+                color: #ffffff;
+              }
+              &.cancle-btn{
+                margin-left: 10px;
+                background-color: #e5e5e5;
+                color: #525252;
+              }
+            }
+          }
+
 
         }
 

@@ -7,6 +7,37 @@ $(function(){
     });
 
     /**
+     * 起止起止日期使用方法
+     *  <div class="data_choose_time inline">
+     *      <label>成交时间：</label>
+     *      <input  class="laydate-icon" id="laydate-start">
+     *      <label>至</label>
+     *      <input  class="laydate-icon" id="laydate-end">
+     *  </div>
+     */
+    $('#laydate-start').on('click', function(event) {
+        laydate(start);
+    });
+    $('#laydate-end').on('click', function(event) {
+        laydate(end);
+    });
+    var start = {
+        elem: '#laydate-start',
+        max: laydate.now(),
+        choose: function(datas){
+            end.min = datas; //开始日选好后，重置结束日的最小日期
+            end.start = datas; //将结束日的初始值设定为开始日
+        }
+    };
+    var end = {
+        elem: '#laydate-end',
+        max: laydate.now(),
+        choose: function(datas){
+            start.max = datas; //结束日选好后，重置开始日的最大日期
+        }
+    };
+
+    /**
      * input数字输入限制
      * onlyLong-只能输入整数的方法 class类名：inputOnlyLong
      * onlyFloat-只能输入带小数点的数字 class类名：inputOnlyFloat
