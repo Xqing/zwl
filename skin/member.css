@@ -95,6 +95,12 @@
   top: 23px;
   z-index: 1;
 }
+.member-content-wrapper .main-content .member-certification .step .step-line ul li.now {
+  color: #ee7207;
+}
+.member-content-wrapper .main-content .member-certification .step .step-line ul li.now:after {
+  background-color: #ee7207;
+}
 .member-content-wrapper .main-content .member-certification .certi-main .tab {
   height: 40px;
   line-height: 40px;
@@ -260,4 +266,158 @@
   margin-left: 10px;
   background-color: #e5e5e5;
   color: #525252;
+}
+.member-content-wrapper .main-content .member-debt {
+  padding: 54px 25px 0 25px;
+}
+.member-content-wrapper .main-content .member-debt .title {
+  font-size: 18px;
+  color: #5b5b5b;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  padding-left: 25px;
+}
+.member-content-wrapper .main-content .member-debt .title:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 8px;
+  background-color: #ee7207;
+  border-radius: 4px;
+}
+.member-content-wrapper .main-content .member-debt .step p {
+  font-size: 12px;
+  margin-top: 22px;
+  padding-top: 38px;
+  padding-left: 20px;
+  border-top: 1px solid #cccccc;
+  position: relative;
+  background: url("i/i-tips.png") no-repeat left bottom;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line {
+  height: 182px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul {
+  width: 830px;
+  margin: 57px auto 0;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 14px;
+  color: #abb2ba;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul li i {
+  display: block;
+  padding-right: 8px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #abb2ba;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul li i.now {
+  color: #ffffff;
+  background-color: #ee7207;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:first-child,
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:nth-child(2),
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:nth-child(3),
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:nth-child(4) {
+  position: relative;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:first-child:after,
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:nth-child(2):after,
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:nth-child(3):after,
+.member-content-wrapper .main-content .member-debt .step .step-line ul li:nth-child(4):after {
+  content: "";
+  width: 116px;
+  height: 6px;
+  background-color: #ffffff;
+  position: absolute;
+  right: -58px;
+  top: 23px;
+  z-index: 1;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul li.now {
+  color: #ee7207;
+}
+.member-content-wrapper .main-content .member-debt .step .step-line ul li.now:after {
+  background-color: #ee7207;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .tab {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 12px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .tab a {
+  display: block;
+  float: left;
+  width: 160px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #525252;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .tab a.current {
+  color: #ffffff;
+  background-color: #0078c3;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .read-tips {
+  font-size: 12px;
+  padding-top: 15px;
+  padding-left: 25px;
+  border-top: 1px solid #cccccc;
+  position: relative;
+  background: url("i/i-tips.png") no-repeat left bottom;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper {
+  padding-top: 44px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper p {
+  margin: 10px 0;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper label {
+  width: 160px;
+  text-align: right;
+  font-size: 14px;
+  color: #333333;
+  margin-right: 10px;
+  display: inline-block;
+  float: left;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper input[type="radio"] {
+  font-size: 14px;
+  color: #333333;
+  margin: 0 5px 0 10px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper input[type="text"] {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  padding-left: 14px;
+  font-size: 14px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper select {
+  width: 95px;
+  height: 40px;
+  margin-right: 10px;
+  padding-left: 14px;
+  border: 1px solid #cccccc;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .yellowtips {
+  font-size: 12px;
+  padding-left: 170px;
+  background: url("i/i-tips.png") no-repeat 150px;
+  margin-bottom: 50px;
 }

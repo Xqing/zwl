@@ -92,6 +92,12 @@
                   z-index: 1;
                 }
               }
+              &.now{
+                color: #ee7207;
+                &:after{
+                  background-color: #ee7207;
+                }
+              }
             }
           }
         }
@@ -268,6 +274,163 @@
 
 
         }
+      }
+    }
+    .member-debt{
+      padding: 54px 25px 0 25px;
+      .title{
+        font-size: 18px;
+        color: #5b5b5b;
+        height: 20px;
+        line-height: 20px;
+        position: relative;
+        padding-left: 25px;
+        &:before{
+          content: "";
+          position: absolute;
+          left: 0;
+          height: 20px;
+          width: 8px;
+          background-color: #ee7207;
+          border-radius: 4px;
+        }
+      }
+      .step{
+        p{
+          font-size: 12px;
+          margin-top: 22px;
+          padding-top: 38px;
+          padding-left: 20px;
+          border-top: 1px solid #cccccc;
+          position: relative;
+          background: url("i/i-tips.png") no-repeat left bottom;
+        }
+        .step-line{
+          height: 182px;
+          background-color: #f4f4f4;
+          overflow: hidden;
+          margin-top: 15px;
+          ul{
+            width: 830px;
+            margin: 57px auto 0;
+            li{
+              float: left;
+              width: 20%;
+              text-align: center;
+              font-size: 14px;
+              color: #abb2ba;
+              i{
+                display: block;
+                padding-right: 8px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                margin:0 auto 20px;
+                border-radius: 50%;
+                font-size: 30px;
+                color: #abb2ba;
+                background-color: #ffffff;
+                z-index: 2;
+                &.now{
+                  color: #ffffff;
+                  background-color: #ee7207;
+                }
+              }
+              &:first-child,
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(4){
+                position: relative;
+                &:after{
+                  content: "";
+                  width: 116px;
+                  height: 6px;
+                  background-color: #ffffff;
+                  position: absolute;
+                  right: -58px;
+                  top: 23px;
+                  z-index: 1;
+                }
+              }
+              &.now{
+                color: #ee7207;
+                &:after{
+                  background-color: #ee7207;
+                }
+              }
+            }
+          }
+        }
+      }
+      .debt-main{
+        .tab{
+          height: 40px;
+          line-height: 40px;
+          margin-top: 12px;
+          a{
+            display: block;
+            float: left;
+            width: 160px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #ffffff;
+            color: #525252;
+            &.current{
+              color: #ffffff;
+              background-color: #0078c3;
+            }
+          }
+        }
+        .read-tips{
+          font-size: 12px;
+          padding-top: 15px;
+          padding-left: 25px;
+          border-top: 1px solid #cccccc;
+          position: relative;
+          background: url("i/i-tips.png") no-repeat left bottom;
+        }
+        .debt-wrapper{
+          padding-top: 44px;
+          p{
+            margin: 10px 0;
+          }
+          label{
+            width: 160px;
+            text-align: right;
+            font-size: 14px;
+            color: #333333;
+            margin-right: 10px;
+            display: inline-block;
+            float: left;
+          }
+          input[type="radio"]{
+            font-size: 14px;
+            color: #333333;
+            margin: 0 5px 0 10px;
+          }
+          input[type="text"]{
+            width: 300px;
+            height: 40px;
+            border: 1px solid #cccccc;
+            padding-left: 14px;
+            font-size: 14px;
+          }
+          select{
+            width: 95px;
+            height: 40px;
+            margin-right: 10px;
+            padding-left: 14px;
+            border: 1px solid #cccccc;
+          }
+          .yellowtips{
+            font-size: 12px;
+            padding-left: 170px;
+            background: url("i/i-tips.png") no-repeat 150px;
+            margin-bottom: 50px;
+          }
+
+        }
+
       }
     }
   }
