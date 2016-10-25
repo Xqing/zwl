@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>会员中心</title>
+    <title>认证中心-债权方信息</title>
     <link rel="stylesheet" type="text/css" href="../skin/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/base.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/index.css"/>
@@ -18,7 +18,7 @@
 <div class="member-header">
     <div class="header-top clear">
         <div class="top-wrapper">
-        <!-- 头部灰色条 -->
+            <!-- 头部灰色条 -->
             <span class="welcome">您好，欢迎来到债无虑! 
                 <a class="yellowtxt" href="javascript:;">[登录] </a>
                 <a class="bluetxt" href="javascript:;">[免费注册]</a>
@@ -72,32 +72,32 @@
                         </a>
                     </li>
                     <li class="nav-zq">
-                         <a href="javascript:;">
+                        <a href="javascript:;">
                             债权中心
                         </a>
                     </li>
                     <li class="nav-cz">
-                         <a href="javascript:;">
+                        <a href="javascript:;">
                             催收中心
                         </a>
                     </li>
                     <li class="nav-tj">
-                         <a href="javascript:;">
+                        <a href="javascript:;">
                             推荐管理
                         </a>
                     </li>
                     <li class="nav-hz">
-                         <a href="javascript:;">
+                        <a href="javascript:;">
                             合作信息
                         </a>
                     </li>
                     <li class="nav-xt">
-                         <a href="javascript:;">
+                        <a href="javascript:;">
                             系统消息
                         </a>
                     </li>
                     <li class="nav-zh">
-                         <a href="javascript:;">
+                        <a href="javascript:;">
                             账号设置
                         </a>
                     </li>
@@ -110,22 +110,111 @@
         </div>
         <!-- 主内容区-->
         <div class="main-content">
-            <div class="member-index">
-                <p class="title">会员中心</p>
-                <p class="welcome">
-                    <span class="yellowtxt">谁谁谁</span>
-                    欢迎进入
-                    <span class="yellowtxt">债无虑</span>
-                    会员中心，在这里开启新的旅程吧！
-                </p>
+            <!-- 认证中心-->
+            <div class="member-certification">
+                <!-- 认证中心通用部分-->
+                <p class="title">认证中心</p>
+                <div class="step">
+                    <p>*为可必填项，其它信息若有误，请及时与债无虑平台联系，电话：<span class="bluetxt">400-1234-888</span></p>
+                    <div class="step-line">
+                        <ul>
+                            <!-- 到当前步骤两个元素都加now-->
+                            <li class="now">
+                                <i class="now">1</i>
+                                上传凭证
+                            </li>
+                            <li>
+                                <i>2</i>
+                                审核中
+                            </li>
+                            <li>
+                                <i>3</i>
+                                认证成功
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 切换身份-->
+                <div class="certi-main">
+                    <div class="tab">
+                        <a class="current" href="javascript:;">债权方信息</a>
+                        <a href="javascript:;">催收方资格认证</a>
+                    </div>
+                    <div class="certi-wrapper">
+                        <p>
+                            <label>债权类型：</label>
+                            <input type="radio" name="zqlx"/>个人
+                            <input type="radio" name="zqlx"/>企业
+                            <input type="radio" name="zqlx"/>银行
+                        </p>
+                        <p>
+                            <label>姓名：</label>
+                            <input type="text" name="" placeholder="李小龙"/>
+                        </p>
+                        <p>
+                            <label>身份证号：</label>
+                            <input type="text" name="" placeholder="XXXX-XXXX-XXXX-XXXX"/>
+                        </p>
+                        <p>
+                            <label>现居住地：</label>
+                            <select>
+                                <option>市</option>
+                            </select>
+                            <select>
+                                <option>区</option>
+                            </select>
+                            <select>
+                                <option>街</option>
+                            </select>
+                        </p>
+                        <div class="upload clear">
+                            <label>上传手持证件照片：</label>
+                            <div class="img-area">
+                                <img src="../img/img04.jpg">
+                            </div>
+                            <div class="img-box">点击添加</div>
+                            <div class="upload-btn">上传</div>
+                            <p class="upload-tips">
+                                大小不超过2M
+                                <br>
+                                支持JPG/JPEG/GIF格式
+                            </p>
+                        </div>
+                        <div class="upload clear">
+                            <label>上传身份证正反面：</label>
+                            <div class="img-area">
+                                <img src="../img/img04.jpg">
+                            </div>
+                            <div class="img-box">点击添加</div>
+                            <div class="upload-btn">上传</div>
+                            <p class="upload-tips">
+                                大小不超过2M
+                                <br>
+                                支持JPG/JPEG/GIF格式
+                            </p>
+                        </div>
+                        <p class="iagree">
+                            <input type="checkbox">
+                            我已阅读并同意 <span class="bluetxt">《 债无虑网络平台服务合作协议 》</span>
+                        </p>
+
+                        <div class="btn-area">
+                            <div class="submit-btn">提交</div>
+                            <div class="cancle-btn">取消</div>
+                        </div>
+
+
+                    </div>
+
+                </div>
 
             </div>
 
         </div>
-        
+
     </div>
-    
-    
+
+
 </div>
 <!--content end-->
 
