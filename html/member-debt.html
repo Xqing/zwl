@@ -12,7 +12,7 @@
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/laydate/laydate.js"></script>
     <script type="text/javascript" src="../js/nicEdit.js"></script>
-    <script type="text/javascript" src="../js/category.js"></script>
+    <script type="text/javascript" src="../js/jquery.cityselect.js"></script>
     <script type="text/javascript" src="../js/uibind.js"></script>
     <script type="text/javascript" src="../js/index.js"></script>
 
@@ -180,16 +180,11 @@
                         </p>
                         <p>
                             <label><span class="yellowtxt">*</span>债权发生地：</label>
-                            <div class="choose-area">
-                                <select>
-                                    <option>市</option>
-                                </select>
-                                <select>
-                                    <option>区</option>
-                                </select>
-                                <select>
-                                    <option>街</option>
-                                </select>
+                            <!-- 这个地区级联实现了级联-->
+                        <div id="choose-area">
+                                <select class="prov"></select>
+                                <select class="city" disabled="disabled"></select>
+                                <select class="dist" disabled="disabled"></select>
                             </div>
                             
                         </p>
@@ -234,7 +229,9 @@
                             <label>上传法人手持证件照片：</label>
                             <div class="img-box">点击添加</div>
                             <div class="upload-btn-tips">
-                                <div class="upload-btn">上传</div>
+                                <div class="upload-btn">上传
+                                    <input class="upload-input" type="file" name="file" multiple="multiple">
+                                </div>
                                 <p class="upload-tips">
                                     大小不超过2M
                                     <br>
@@ -242,11 +239,14 @@
                                 </p>
                             </div>
                         </div>
+                        <!-- 这个上传模块实现了上传-->
                         <div class="upload clear">
                             <label>上传身份证正反面：</label>
-                            <div class="img-box">点击添加</div>
+                            <div class="img-box" id="imgbox1">点击添加</div>
                             <div class="upload-btn-tips">
-                                <div class="upload-btn">上传</div>
+                                <div class="upload-btn">上传
+                                    <input class="upload-input" type="file" name="file" multiple="multiple" onchange="document.getElementById('imgbox1').innerHTML=this.value">
+                                </div>
                                 <p class="upload-tips">
                                     大小不超过2M
                                     <br>
@@ -388,11 +388,6 @@
     bkLib.onDomLoaded(function() {
         ab = new nicEditor({fullPanel : true}).panelInstance('editor_nicEditor');
     });
-    // 地区级联未调试 todo
-    // $(".choose-area").category({
-    //     url:"/category.json",
-    //     nodata:"hidden"
-    // });
-
+    $("#choose-area").citySelect();
 </script>
 </html>

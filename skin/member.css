@@ -148,7 +148,7 @@
   font-size: 14px;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper select {
-  width: 95px;
+  width: 90px;
   height: 40px;
   margin-right: 10px;
   padding-left: 14px;
@@ -197,6 +197,16 @@
   float: left;
   text-align: center;
   margin-left: 10px;
+  position: relative;
+}
+.member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload .upload-btn .upload-input {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper .upload .upload-tips {
   color: #abb2ba;
@@ -409,7 +419,7 @@
   font-size: 14px;
 }
 .member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper select {
-  width: 95px;
+  width: 90px;
   height: 40px;
   margin-right: 10px;
   padding-left: 14px;
@@ -502,6 +512,16 @@
   float: left;
   text-align: center;
   margin-left: 10px;
+  position: relative;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .upload .upload-btn .upload-input {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
 }
 .member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .upload .upload-tips {
   color: #abb2ba;
