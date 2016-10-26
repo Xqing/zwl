@@ -581,6 +581,11 @@
   background-color: #ee7207;
   color: #ffffff;
 }
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .btn-area div.check-btn {
+  background-color: #ee7207;
+  color: #ffffff;
+  margin-top: 20px;
+}
 .member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .btn-area div.cancle-btn {
   margin-left: 10px;
   background-color: #e5e5e5;
@@ -642,6 +647,39 @@
 }
 .member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table tr td a {
   margin: 0 2px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item {
+  padding-bottom: 50px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item .img-area img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item p a {
+  color: #0078c3;
+  text-decoration: underline;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item .detail-table table {
+  table-layout: fixed;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 1.5;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item .detail-table table tr {
+  height: 45px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item .detail-table table td {
+  padding: 8px 20px 8px 8px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item .detail-table table td.td-long {
+  width: 515px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .detail-item .detail-table table td.td-med {
+  width: 350px;
 }
 .member-content-wrapper .main-content .member-debt .debt-detail .tab {
   margin-top: 10px;
