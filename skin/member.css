@@ -365,6 +365,34 @@
 .member-content-wrapper .main-content .member-debt .step .step-line ul li.now:after {
   background-color: #ee7207;
 }
+.member-content-wrapper .main-content .member-debt .step .number-show .item {
+  width: 33%;
+  height: 77px;
+  padding: 15px;
+  text-align: left;
+  float: left;
+  margin-top: 25px;
+}
+.member-content-wrapper .main-content .member-debt .step .number-show .item .number {
+  font-size: 30px;
+  color: #ff6634;
+  display: block;
+}
+.member-content-wrapper .main-content .member-debt .step .number-show .item .txt {
+  font-size: 14px;
+  color: #999999;
+}
+.member-content-wrapper .main-content .member-debt .overview {
+  padding: 30px;
+  margin-top: 35px;
+  background-color: #f6f6f6;
+}
+.member-content-wrapper .main-content .member-debt .overview table {
+  width: 100%;
+  color: #5b5b5b;
+  font-size: 14px;
+  line-height: 2;
+}
 .member-content-wrapper .main-content .member-debt .debt-main .tab {
   height: 40px;
   line-height: 40px;
@@ -557,4 +585,69 @@
   margin-left: 10px;
   background-color: #e5e5e5;
   color: #525252;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table {
+  margin-top: -45px;
+  border-top: 1px solid #cccccc;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item {
+  margin-bottom: 20px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .debt-tab {
+  margin-top: 10px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .debt-tab span {
+  font-size: 14px;
+  color: #333333;
+  background-color: #eeeeee;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 5px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .debt-tab span.active {
+  background-color: #ee7207;
+  color: #ffffff;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #cccccc;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table th {
+  background-color: #e5f1f9;
+  height: 30px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table th.th-long {
+  width: 160px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table tr {
+  height: 30px;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table tr td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper .debt-table .item .table-box table tr td a {
+  margin: 0 2px;
+}
+.member-content-wrapper .main-content .member-debt .debt-detail .tab {
+  margin-top: 10px;
+  background-color: #f4f4f4;
+}
+.member-content-wrapper .main-content .member-debt .debt-detail .tab a {
+  width: 130px;
+  background-color: #f4f4f4;
 }

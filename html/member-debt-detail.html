@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>债权中心-发布2</title>
+    <title>债权中心-详情</title>
     <link rel="stylesheet" type="text/css" href="../skin/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/base.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/index.css"/>
@@ -12,6 +12,7 @@
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/laydate/laydate.js"></script>
     <script type="text/javascript" src="../js/nicEdit.js"></script>
+    <script type="text/javascript" src="../js/jquery.cityselect.js"></script>
     <script type="text/javascript" src="../js/uibind.js"></script>
     <script type="text/javascript" src="../js/index.js"></script>
 
@@ -117,111 +118,71 @@
             <div class="member-debt">
                 <!-- 认证中心通用部分-->
                 <p class="title">债权中心</p>
-                <div class="step">
-                    <p>*为可必填项，其它信息若有误，请及时与债无虑平台联系，电话：<span class="bluetxt">400-1234-888</span></p>
-                    <div class="step-line">
-                        <ul>
-                            <!-- 到当前步骤两个元素都加now-->
-                            <li class="now">
-                                <i class="now">1</i>
-                                填写债权方信息
-                            </li>
-                            <li class="now">
-                                <i class="now">2</i>
-                                填写债务方信息
-                            </li>
-                            <li>
-                                <i>3</i>
-                                填写担保方信息
-                            </li>
-                            <li>
-                                <i>4</i>
-                                填写催收措施信息
-                            </li>
-                            <li>
-                                <i>5</i>
-                                发布成功
-                            </li>
-                        </ul>
-                    </div>
+                <div class="overview">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>债权订单编号：ZQ20160920001</td>
+                                <td>订单状态：<span class="yellowtxt">待签约</span></td>
+                            </tr>
+                            <tr>
+                                <td>发布时间：2016-09-10 20:00:00</td>
+                                <td>回款时间：2016-09-20 20:00:00</td>
+                                <td>债权金额：<span class="redtxt">500000.00</span></td>
+                                <td>回报率：<span class="bluetxt">20%</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
                 </div>
-                <!-- 切换身份-->
-                <div class="debt-main">
+                <!-- tab+详情-->
+                <div class="debt-main debt-detail">
                     <div class="tab">
-                        <a class="current" href="javascript:;">发布债权信息</a>
-                        <a href="javascript:;">发布资产包</a>
+                        <a class="current" href="javascript:;">债权方信息</a>
+                        <a href="javascript:;">债务方信息</a>
+                        <a href="javascript:;">担保信息</a>
+                        <a href="javascript:;">催收措施</a>
+                        <a href="javascript:;">催收公司</a>
+                        <a href="javascript:;">催收进度</a>
+                        <a href="javascript:;">委托协议</a>
                     </div>
-                    <p class="read-tips">请认真阅读一下文字：处置方需要全面了解您的债权情况，请您认真填写。我们会保护您的隐私，关键信息我们会做模糊处理。带星号（*）的为必填项；</p>
                     <div class="debt-wrapper">
-                        <p>
-                            <label><span class="yellowtxt">*</span>债权类型：</label>
-                            <input type="radio" name="zqlx"/>个人
-                            <input type="radio" name="zqlx" checked/>企业
-                            <input type="radio" name="zqlx"/>银行
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>债务人姓名：</label>
-                            <input type="text" name=""/>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>债务人联系电话：</label>
-                            <input type="text" name=""/>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>债务人现居地：</label>
-                            <div class="choose-area">
-                                <select>
-                                    <option>市</option>
-                                </select>
-                                <select>
-                                    <option>区</option>
-                                </select>
-                                <select>
-                                    <option>街</option>
-                                </select>
+                        <div class="item">
+                            <p class="clear">
+                                <label>债权类型：</label>
+                            </p>
+                            <p  class="clear">
+                                <label>是否投保：</label>
+                            </p>
+                            <p  class="clear">
+                                <label>债权本金：</label>
+                            </p>
+                            <p  class="clear">
+                                <label>借款时间：</label>
+                            </p>
+                            <p  class="clear">
+                                <label>还款时间：</label>
+                            </p>
+                            <p class="clear">
+                                <label>借款发生地：</label>
+                            </p>
+                            <p  class="clear">
+                                <label>期望处置方式：</label>
+                            </p>
+                            <div  class="clear">
+                                <label>相关凭证：</label>
                             </div>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>详细地址：</label>
-                            <input type="text" name=""/>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>身份证号：</label>
-                            <input type="text" name=""/>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>紧急联系人姓名：</label>
-                            <input type="text" name=""/>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>紧急联系人电话：</label>
-                            <input type="text" name=""/>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>债务方能否正常联系：</label>
-                            <input type="text" name=""/>
-                        </p>
-                        <p>
-                            <label><span class="yellowtxt">*</span>是否有能力偿还：</label>
-                            <input type="radio" name="zqlx"/>是
-                            <input type="radio" name="zqlx" checked/>否
-                        </p>
-
-                        <!-- 富文本编辑器 -->
-                         <label class="nic-label">其他说明：</label>
-                        <div class="nic_edit">
-                            <textarea data-sort="spu" id="editor_nicEditor" name="pcDes" style="width: 600px;height: 300px;"></textarea>
-                        </div>
-
-
-
-                        <div class="btn-area">
-                            <div class="submit-btn">下一步</div>
-                            <div class="cancle-btn">上一步</div>
+                            <p  class="clear">
+                                <label>语音凭证：</label>
+                            </p>
+                            <p  class="clear">
+                                <label>债权描述：</label>
+                            </p>
                         </div>
                     </div>
 
                 </div>
+
 
             </div>
 
@@ -334,17 +295,4 @@
 
 </body>
 
-<script>
-    //富文本编辑器
-    var ab;
-    bkLib.onDomLoaded(function() {
-        ab = new nicEditor({fullPanel : true}).panelInstance('editor_nicEditor');
-    });
-    // 地区级联未调试 todo
-    // $(".choose-area").category({
-    //     url:"/category.json",
-    //     nodata:"hidden"
-    // });
-
-</script>
 </html>
