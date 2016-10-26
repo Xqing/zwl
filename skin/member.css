@@ -689,3 +689,209 @@
   width: 130px;
   background-color: #f4f4f4;
 }
+.member-content-wrapper .main-content .member-collection {
+  padding: 54px 25px 0 25px;
+}
+.member-content-wrapper .main-content .member-collection .title {
+  font-size: 18px;
+  color: #5b5b5b;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  padding-left: 25px;
+}
+.member-content-wrapper .main-content .member-collection .title:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 8px;
+  background-color: #ee7207;
+  border-radius: 4px;
+}
+.member-content-wrapper .main-content .member-collection .step p {
+  font-size: 12px;
+  margin-top: 22px;
+  padding-top: 38px;
+  padding-left: 20px;
+  border-top: 1px solid #cccccc;
+  position: relative;
+  background: url("i/i-tips.png") no-repeat left bottom;
+}
+.member-content-wrapper .main-content .member-collection .step .number-show .item {
+  width: 33%;
+  height: 77px;
+  padding: 15px;
+  text-align: left;
+  float: left;
+  margin-top: 25px;
+}
+.member-content-wrapper .main-content .member-collection .step .number-show .item .number {
+  font-size: 30px;
+  color: #ff6634;
+  display: block;
+}
+.member-content-wrapper .main-content .member-collection .step .number-show .item .txt {
+  font-size: 14px;
+  color: #999999;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .tab {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .tab a {
+  display: block;
+  float: left;
+  width: 160px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #525252;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .tab a.current {
+  color: #ffffff;
+  background-color: #0078c3;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check {
+  border-bottom: 1px solid #cccccc;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check ul {
+  margin: 33px 0;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check ul li {
+  float: left;
+  width: 136px;
+  height: 159px;
+  line-height: 159px;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 30px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check ul li.type1 {
+  margin-left: 0;
+  background: url("i/i-type1.png") no-repeat center;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check ul li.type2 {
+  background: url("i/i-type2.png") no-repeat center;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check ul li.type3 {
+  background: url("i/i-type3.png") no-repeat center;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check ul li.type4 {
+  background: url("i/i-type4.png") no-repeat center;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .type-check ul li.type5 {
+  margin-right: 0;
+  background: url("i/i-type5.png") no-repeat center;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .small-title {
+  font-size: 16px;
+  color: #5b5b5b;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .small-title:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  height: 16px;
+  width: 5px;
+  background-color: #4aa7f5;
+  border-radius: 3px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper #hightchart-container {
+  width: 100%;
+  height: 338px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .profit {
+  width: 300px;
+  float: left;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .profit .profit-num {
+  padding: 30px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .profit .profit-num .num {
+  font-size: 30px;
+  color: #ff6634;
+  margin-top: 10px;
+  display: block;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .profit .profit-num .txt {
+  font-size: 14px;
+  color: #999999;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .new {
+  float: left;
+  width: 600px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .new .new-list {
+  padding: 30px 0 0 30px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .new .new-list table {
+  width: 100%;
+  line-height: 2;
+  font-size: 14px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table {
+  border-top: 1px solid #cccccc;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item {
+  margin-bottom: 20px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .collection-tab {
+  margin-top: 10px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .collection-tab span {
+  font-size: 14px;
+  color: #333333;
+  background-color: #eeeeee;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 5px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .collection-tab span.active {
+  background-color: #ee7207;
+  color: #ffffff;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #cccccc;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table th {
+  background-color: #e5f1f9;
+  height: 30px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table th.th-long {
+  width: 165px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table tr {
+  height: 30px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table tr td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table tr td a {
+  margin: 0 2px;
+}

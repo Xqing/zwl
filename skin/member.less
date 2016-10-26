@@ -701,10 +701,7 @@
               }
             }
           }
-
-
         }
-
       }
       .debt-detail{
         .tab{
@@ -713,6 +710,223 @@
           a{
             width: 130px;
             background-color: #f4f4f4;
+          }
+        }
+      }
+    }
+    .member-collection{
+       padding: 54px 25px 0 25px;
+      .title{
+        font-size: 18px;
+        color: #5b5b5b;
+        height: 20px;
+        line-height: 20px;
+        position: relative;
+        padding-left: 25px;
+        &:before{
+          content: "";
+          position: absolute;
+          left: 0;
+          height: 20px;
+          width: 8px;
+          background-color: #ee7207;
+          border-radius: 4px;
+        }
+      }
+      .step{
+        p{
+          font-size: 12px;
+          margin-top: 22px;
+          padding-top: 38px;
+          padding-left: 20px;
+          border-top: 1px solid #cccccc;
+          position: relative;
+          background: url("i/i-tips.png") no-repeat left bottom;
+        }
+        .number-show{
+          .item{
+            width: 33%;
+            height: 77px;
+            padding: 15px;
+            text-align: left;
+            float: left;
+            margin-top: 25px;
+            .number{
+              font-size: 30px;
+              color: #ff6634;
+              display: block;
+            }
+            .txt{
+              font-size: 14px;
+              color: #999999;
+
+            }
+          }
+        }
+      }
+      .collection-main{
+        .tab{
+          height: 40px;
+          line-height: 40px;
+          margin-top: 12px;
+          border-bottom: 1px solid #cccccc;
+          a{
+            display: block;
+            float: left;
+            width: 160px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #ffffff;
+            color: #525252;
+            &.current{
+              color: #ffffff;
+              background-color: #0078c3;
+            }
+          }
+        }
+        .collection-wrapper{
+          .type-check{
+            border-bottom: 1px solid #cccccc;
+            ul{
+              margin: 33px 0;
+              li{
+                float: left;
+                width: 136px;
+                height: 159px;
+                line-height: 159px;
+                color: #ffffff;
+                font-size: 24px;
+                text-align: center;
+                margin: 0 30px;
+                &.type1{
+                  margin-left: 0;
+                  background: url("i/i-type1.png") no-repeat center;
+                }
+                &.type2{
+                  background: url("i/i-type2.png") no-repeat center;
+                }
+                &.type3{
+                  background: url("i/i-type3.png") no-repeat center;
+                }
+                &.type4{
+                  background: url("i/i-type4.png") no-repeat center;
+                }
+                &.type5{
+                  margin-right: 0;
+                  background: url("i/i-type5.png") no-repeat center;
+                }
+
+              }
+            }
+          }
+          .small-title{
+            font-size: 16px;
+            color: #5b5b5b;
+            height: 20px;
+            line-height: 20px;
+            position: relative;
+            padding-left: 25px;
+            margin-top: 15px;
+            &:before{
+              content: "";
+              position: absolute;
+              left: 10px;
+              top: 2px;
+              height: 16px;
+              width: 5px;
+              background-color: #4aa7f5;
+              border-radius: 3px;
+            }
+          }
+          #hightchart-container{
+            width: 100%;
+            height: 338px;
+          }
+          .profit{
+            width: 300px;
+            float: left;
+            .profit-num{
+              padding: 30px;
+            .num{
+              font-size: 30px;
+              color: #ff6634;
+              margin-top: 10px;
+              display: block;
+            }
+            .txt{
+              font-size: 14px;
+              color: #999999;
+            }
+            } 
+          }
+          .new{
+            float: left;
+            width: 600px;
+            .new-list{
+              padding: 30px 0 0 30px;
+              table{
+                width: 100%;
+                line-height: 2;
+                font-size: 14px;
+              }
+            }
+          }
+          .collection-table{
+            border-top: 1px solid #cccccc;
+            .item{
+              margin-bottom: 20px;
+              .collection-tab{
+                margin-top: 10px;
+                span{
+                  font-size: 14px;
+                  color: #333333;
+                  background-color: #eeeeee;
+                  height: 24px;
+                  line-height: 24px;
+                  padding: 0 5px;
+                  display: inline-block;
+                  margin-right: 15px;
+                  &.active{
+                    background-color: #ee7207;
+                    color: #ffffff;
+                  }
+                }
+              }
+              .table-box{
+                font-size: 14px;
+                margin-top: 10px;
+                table{
+                  table-layout: fixed;
+                  width: 100%;
+                  border: 1px solid #cccccc;
+                  text-align: center;
+                  border-collapse: collapse;
+                  border-spacing: 0;
+                  th{
+                    background-color: #e5f1f9;
+                    height: 30px;
+                    &.th-long{
+                      width: 165px;
+                    }
+                  }
+                  tr{
+                    height: 30px;
+                    &:nth-child(odd){
+                      background-color: #eeeeee;
+                    }
+                    td{
+                      text-overflow: ellipsis;
+                      overflow: hidden;
+                      white-space: nowrap;
+                      a{
+                        margin: 0 2px;
+                      }
+                    }
+                  }
+                }
+
+              }
+            }
           }
         }
       }
