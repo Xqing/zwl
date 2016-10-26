@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>催收中心-首页</title>
+    <title>催收中心-订单中心</title>
     <link rel="stylesheet" type="text/css" href="../skin/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/base.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/index.css"/>
@@ -340,8 +340,6 @@
         </div>
 
     </div>
-
-
 </div>
 <!--content end-->
 
@@ -357,13 +355,11 @@
     <div class="close">
         <div class="close_css"></div>
     </div>
-
 </div>
 <!--float e-->
 
 <!--footer s-->
 <div class="member-footer">
-
     <div class="member-footer-wrapper clear">
         <div class="clear">
             <!-- 第一块-->
@@ -444,6 +440,102 @@
 <!--footer e-->
 
 
-</body>
 
+<!-- 弹窗s hide控制初始隐藏-->
+<!-- 评价弹窗 -->
+<div class="popup evaluate-popup hide">
+    <div class="popup_card">
+        <div class="popup_close">
+            <div class="close_css"></div>
+        </div>
+        <div class="popup_sure">
+            <div class="popup_title">评价</div>
+            <div class="popup_content">
+                <div>
+                    <p>
+                        <label>姓名：</label>
+                        <input type="text" name="">
+                    </p>
+                    <p>
+                        <label>邮箱：</label>
+                        <input type="text" name="">
+                    </p>
+                    <p>
+                        <label>电话：</label>
+                        <input type="text" name="">
+                    </p>
+                    <p>
+                        <label>内容：</label>
+                        <textarea></textarea>
+                    </p>
+                    <div class="btn-area">
+                        <div class="submit-btn">提交</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 催收进度 -->
+<div class="popup progress-popup hide">
+    <div class="popup_card">
+        <div class="popup_close">
+            <div class="close_css"></div>
+        </div>
+        <div class="popup_sure">
+            <div class="popup_title">催收进度</div>
+            <div class="popup_content">
+                <div>
+                    <p>
+                        <label>催收日期：</label>
+                        <input type="text" name="">
+                    </p>
+                    <p>
+                        <label>催收方式：</label>
+                        <input type="radio" name="csfs">上门
+                        <input type="radio" name="csfs" checked="checked">电话
+
+                    </p>
+                    <p>
+                        <label>催收说明：</label>
+                        <textarea></textarea>
+                    </p>
+                    <div class="btn-area">
+                        <div class="submit-btn">提交</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 上传合同 -->
+<div class="popup upload-popup hide">
+    <div class="popup_card">
+        <div class="popup_close">
+            <div class="close_css"></div>
+        </div>
+        <div class="popup_sure">
+            <div class="popup_title">上传合同</div>
+            <div class="popup_content">
+                <div>
+                    
+                    <div class="choose-file">
+                        选择文件
+                        <input class="upload-input" type="file" name="file" multiple="multiple" onchange="document.getElementById('filebox1').innerHTML=this.value">
+                    </div>
+                    <div class="filebox" id="filebox1"></div>
+                    <div class="submit-btn">确定</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div
+
+<!-- 弹窗e -->
+
+
+</body>
 </html>

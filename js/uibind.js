@@ -37,6 +37,10 @@ $(function(){
         }
     };
 
+    $('#biz-date').on('click', function(event) {
+        laydate();
+    });
+
     /**
      * input数字输入限制
      * onlyLong-只能输入整数的方法 class类名：inputOnlyLong

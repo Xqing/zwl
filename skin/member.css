@@ -810,6 +810,25 @@
   width: 100%;
   height: 338px;
 }
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper #biz-line {
+  width: 100%;
+  height: 400px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper #miz-bar {
+  width: 100%;
+  height: 400px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .biz-choose {
+  margin-top: 20px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .biz-choose label {
+  width: 80px;
+  font-size: 14px;
+}
+.member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .biz-choose input {
+  width: 260;
+  height: 36px;
+}
 .member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .profit {
   width: 300px;
   float: left;
@@ -894,4 +913,102 @@
 }
 .member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table tr td a {
   margin: 0 2px;
+}
+.evaluate-popup .popup_card,
+.progress-popup .popup_card {
+  width: 730px;
+  margin-left: -365px;
+  height: 500px;
+}
+.evaluate-popup .popup_content,
+.progress-popup .popup_content {
+  font-size: 14px;
+}
+.evaluate-popup .popup_content p,
+.progress-popup .popup_content p {
+  margin-bottom: 10px;
+}
+.evaluate-popup .popup_content label,
+.progress-popup .popup_content label {
+  width: 70px;
+  margin-left: 10px;
+  line-height: 2;
+  vertical-align: top;
+}
+.evaluate-popup .popup_content input[type="text"],
+.progress-popup .popup_content input[type="text"] {
+  width: 256px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  padding-left: 10px;
+}
+.evaluate-popup .popup_content input[type="radio"],
+.progress-popup .popup_content input[type="radio"] {
+  margin: 0 5px 0 10px;
+}
+.evaluate-popup .popup_content textarea,
+.progress-popup .popup_content textarea {
+  width: 585px;
+  height: 210px;
+  resize: none;
+  border: 1px solid #cccccc;
+}
+.evaluate-popup .popup_content .submit-btn,
+.progress-popup .popup_content .submit-btn {
+  width: 77px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #056a9d;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  border-radius: 3px;
+}
+.upload-popup .popup_card {
+  width: 560px;
+  margin-left: -280px;
+  height: 200px;
+}
+.upload-popup .popup_content .choose-file {
+  height: 36px;
+  width: 90px;
+  line-height: 36px;
+  color: #ee7207;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  text-decoration: underline;
+  margin-left: 10px;
+  position: relative;
+}
+.upload-popup .popup_content .choose-file .upload-input {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.upload-popup .popup_content .filebox {
+  width: 250px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #cccccc;
+  padding-left: 10px;
+  float: left;
+}
+.upload-popup .popup_content .submit-btn {
+  width: 77px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #056a9d;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 3px;
 }

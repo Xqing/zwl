@@ -842,6 +842,26 @@
             width: 100%;
             height: 338px;
           }
+          #biz-line{
+            width: 100%;
+            height: 400px;
+          }
+          #miz-bar{
+            width: 100%;
+            height: 400px;
+          }
+          .biz-choose{
+            margin-top: 20px;
+            label{
+              width: 80px;
+              font-size: 14px;
+            }
+            input{
+              width: 260;
+              height: 36px;
+            }
+
+          }
           .profit{
             width: 300px;
             float: left;
@@ -924,12 +944,111 @@
                     }
                   }
                 }
-
               }
             }
           }
         }
       }
     }
+  }
+}
+
+.evaluate-popup,.progress-popup{
+  .popup_card {
+    width: 730px;
+    margin-left: -365px;
+    height: 500px;
+  }
+  .popup_content{
+    font-size: 14px;
+    p{
+      margin-bottom: 10px;
+    }
+    label{
+      width: 70px;
+      margin-left: 10px;
+      line-height: 2;
+      vertical-align: top;
+    }
+    input[type="text"]{
+      width: 256px;
+      height: 20px;
+      border: 1px solid #cccccc;
+      padding-left: 10px;
+    }
+    input[type="radio"]{
+      margin: 0 5px 0 10px;
+    }
+    textarea{
+      width: 585px;
+      height: 210px;
+      resize: none;
+      border: 1px solid #cccccc;
+    }
+    .submit-btn{
+      width: 77px;
+      height: 30px;
+      line-height: 30px;
+      background-color: #056a9d;
+      color: #ffffff;
+      cursor: pointer;
+      margin: 20px auto 0 auto;
+      text-align: center;
+      border-radius: 3px;
+    }
+  }
+}
+
+.upload-popup{
+  .popup_card {
+    width: 560px;
+    margin-left: -280px;
+    height: 200px;
+  }
+  .popup_content{
+    .choose-file{
+      height: 36px;
+      width: 90px;
+      line-height: 36px;
+      color: #ee7207;
+      cursor: pointer;
+      float: left;
+      text-align: center;
+      text-decoration: underline;
+      margin-left: 10px;
+      position: relative;
+      .upload-input{
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+      }
+    }
+    .filebox{
+      width: 250px;
+      height: 36px;
+      line-height: 36px;
+      border: 1px solid #cccccc;
+      padding-left: 10px;
+      float: left;
+    }
+    .submit-btn{
+      width: 77px;
+      height: 30px;
+      line-height: 30px;
+      background-color: #056a9d;
+      color: #ffffff;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 3px;
+      float: left;
+      margin-left: 10px;
+      margin-top: 3px;
+    }
+    
+    
   }
 }
