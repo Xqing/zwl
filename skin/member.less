@@ -715,7 +715,7 @@
       }
     }
     .member-collection{
-       padding: 54px 25px 0 25px;
+      padding: 54px 25px 0 25px;
       .title{
         font-size: 18px;
         color: #5b5b5b;
@@ -951,6 +951,273 @@
       }
     }
   }
+
+  // 资债中心
+  .asset-main-content{
+    .choose-box{
+      border: 1px solid #cccccc;
+      margin-top: 20px;
+      p,.line{
+        line-height: 3;
+        font-size: 12px;
+        border-bottom: 1px dashed #cccccc;
+        label{
+          width: 100px;
+          text-align: right;
+          margin-right: 10px;
+          font-size: 14px;
+          display: inline-block;
+        }
+        .fl{
+          float: left;
+        }
+        .choose-search{
+          background: url("i/i-search.png") no-repeat 170px #ffffff;
+          padding-left: 10px;
+          height: 25px;
+          width: 200px;
+          border-radius: 13px;
+          border: 1px solid #cccccc;
+        }
+        span{
+          padding: 5px;
+          margin-right: 20px; 
+          border-radius: 5px;
+          cursor: pointer;
+          &.active{
+            background-color: #007ec0;
+            color: #ffffff;
+          }
+        }
+        .area{
+          margin-left: 114px;
+          width: 1062px;
+        }
+      }
+    }
+    .your-choose{
+      line-height: 3;
+      background-color: #007ec0;
+      padding-left: 15px;
+      border: 1px solid #ccc;
+      margin-top: 25px;
+      label{
+        font-size: 14px;
+        color: #ffffff;
+      }
+      span{
+        background-color: #ffffff;
+        padding: 3px 20px 3px 8px;
+        text-align: left;
+        color: #5d5d5d;
+        position: relative;
+        &:after{
+          content: 'x';
+          position: absolute;
+          right: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+    .asset-table{
+      width: 100%;
+      text-align: center;
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 14px;
+      line-height: 3;
+      tr{
+        border-bottom: 1px dashed #cccccc;
+        th{
+          background-color: #f9f9f9;
+        }
+        .num{
+          color: #ff6634;
+          font-size: 18px;
+        }
+      }
+    }
+    .asset-basic{
+      background-color: #fff;
+      border: 1px solid #ccc;
+      height: 300px;
+      margin-top: 15px;
+      .left{
+        width: 760px;
+        height: 100%;
+        float: left;
+        border-right: 1px solid #ccc;
+        padding: 35px 25px;
+        .asset-num{
+          font-size: 14px;
+          color: #999;
+        }
+        .blacktxt{
+          color: #5d5d5d;
+        }
+        ul{
+          margin-top: 40px;
+          li{
+            width: 33%;
+            float: left;
+            color: #999;
+            margin-bottom: 20px;
+            .bigtxt{
+              font-size: 30px;
+            }
+            .smalltxt{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .right{
+        float: left;
+        width: 430px;
+        .right-main{
+          width: 170px;
+          margin: 20px auto;
+          .circle{
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            width: 145px;
+            height: 145px;
+            margin-bottom: 10px;
+            .num{
+              font-size: 14px;
+              color: #999;
+              margin-top: 50px;
+              text-align: center;
+              .bigtxt{
+                font-size: 30px;
+                color: #5d5d5d;
+              }
+            }
+          }
+          p{
+            text-align: center;
+            label{
+              font-size: 14px;
+              color: #999;
+            }
+            span{
+              font-size: 14px;
+              color: #5d5d5d;
+            }
+          }
+          .btn{
+            margin: 10px auto;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 3px;
+            color: #fff;
+            background-color: #ff7633;
+            font-size: 16px;
+            cursor: pointer;
+          }
+
+        }
+      }
+    }
+    .asset-detail{
+      background-color: #fff;
+      border: 1px solid #ccc;
+      margin-top: 15px;
+      padding: 0 25px;
+      .tab{
+        border-bottom: 1px solid #ccc;
+        ul{
+          li{
+            float: left;
+            cursor: pointer;
+            line-height: 3;
+            margin-right: 30px;
+            padding: 0 5px;
+            &.current{
+              color: #007ec0;
+              border-bottom: 2px solid #007ec0;
+            }
+          }
+        }
+      }
+      .table-box{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 2;
+        padding-bottom: 65px;
+        table{
+          width: 100%;
+        }
+        label{
+          color: #999;
+        }
+        span{
+          color: #5d5d5d;
+        }
+        td{
+          .img-box{
+            display: inline-block;
+            img{
+              width: 40px;
+              height: 40px;
+            }
+          }
+        }
+      }
+      .onetd{
+        text-align: left;
+        label{
+          width: 160px;
+          text-align: right;
+          display: inline-block;
+        }
+      }
+      .youcannt{
+        margin: 90px 0;
+        text-align: center;
+        font-size: 16px;
+        color: #999;
+
+      }
+    }
+  }
+}
+
+// 资债中心面包屑
+.asset-list-nav{
+  width: 100%;
+  background-color: #007ec0;
+  color: #ffffff;
+  line-height: 3;
+  .list-nav-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .now{
+    float: left;
+    font-size: 14px;
+    a{
+      color: #ffffff;
+    }
+  }
+  ul{
+    float: right;
+    width: 620px;
+    font-size: 16px;
+    li{
+      float: left;
+      width: 20%;
+      text-align: center;
+      &.current{
+        background: url("i/i-traggle.png") no-repeat center bottom transparent;
+
+      }
+    }
+  }
+
 }
 
 .evaluate-popup,.progress-popup{
