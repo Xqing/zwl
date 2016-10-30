@@ -914,6 +914,172 @@
 .member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .collection-table .item .table-box table tr td a {
   margin: 0 2px;
 }
+.member-content-wrapper .main-content .member-recommend {
+  padding: 54px 25px 0 25px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .tab {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 12px;
+  border-bottom: 1px solid #cccccc;
+  box-sizing: content-box;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .tab a {
+  display: block;
+  float: left;
+  width: 160px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #525252;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .tab a.current {
+  color: #ffffff;
+  background-color: #0078c3;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .logo-img {
+  width: 294px;
+  height: 111px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-left: 20px;
+  margin-top: 190px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .logo-img img {
+  height: 100%;
+  width: 100%;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .qrcode-img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 170px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .qrcode-img img {
+  margin: 15px;
+  width: 270px;
+  height: 270px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .share-txt {
+  padding: 35px 20px;
+  font-size: 14px;
+  margin-top: 190px;
+  width: 294px;
+  height: 111px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .get-money-input {
+  margin: 50px 0 50px 200px;
+  width: 420px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .get-money-input p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .get-money-input p label {
+  width: 100px;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: right;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .get-money-input p input[type="text"] {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  padding-left: 14px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .get-money-input p .tel {
+  width: 160px!important;
+  float: left;
+  margin-left: 115px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .get-money-input p .get-code {
+  display: inline-block;
+  margin-left: 20px;
+  width: 120px;
+  height: 43px;
+  line-height: 43px;
+  border-radius: 3px;
+  border: 1px solid #0078c3;
+  font-size: 12px;
+  text-align: center;
+  color: #0078c3;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .get-money-input .submit-btn {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff6c33;
+  margin-left: 114px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #cccccc;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box table th {
+  background-color: #e5f1f9;
+  height: 30px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box table th.th-long {
+  width: 160px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box table tr {
+  height: 30px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box table tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box table tr td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .table-box table tr td a {
+  margin: 0 2px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .add-person {
+  margin: 20px auto;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .add-person label {
+  font-size: 14px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .add-person input {
+  height: 28px;
+  width: 250px;
+  margin-right: 55px;
+}
+.member-content-wrapper .main-content .member-recommend .recommend-main .recommend-wrapper .add-person .submit-btn {
+  display: inline-block;
+  width: 100px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  background-color: #ff6c33;
+}
 .member-content-wrapper .asset-main-content .choose-box {
   border: 1px solid #cccccc;
   margin-top: 20px;
