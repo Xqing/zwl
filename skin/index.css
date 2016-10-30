@@ -1280,3 +1280,89 @@
   height: 100%;
   width: 100%;
 }
+.login-wrapper {
+  height: 100%;
+  width: 100%;
+  background: url('i/login-bg.jpg') no-repeat center;
+  position: relative;
+}
+.login-wrapper .login-input {
+  height: 554px;
+  width: 474px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -237px;
+  margin-top: -277px;
+  background: url('i/i-login-bg.png') no-repeat center;
+}
+.login-wrapper .login-input .slogan {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 170px;
+}
+.login-wrapper .login-input .sign-in-input {
+  width: 380px;
+  margin: 0 auto;
+}
+.login-wrapper .login-input .sign-in-input input {
+  height: 43px;
+  border-radius: 3px;
+  border: 1px solid #c9c9c9;
+  margin: 13px 0;
+  width: 100%;
+  padding-left: 43px;
+}
+.login-wrapper .login-input .sign-in-input input.username {
+  margin-top: 43px;
+  background: url("i/i-username.png") no-repeat 7px;
+}
+.login-wrapper .login-input .sign-in-input input.pwd {
+  background: url("i/i-pwd.png") no-repeat 7px;
+}
+.login-wrapper .login-input .sign-in-input input.icode {
+  width: 245px;
+  background: url("i/i-icode.png") no-repeat 7px;
+}
+.login-wrapper .login-input .sign-in-input .code-img {
+  float: right;
+  margin-top: 13px;
+  width: 120px;
+  height: 43px;
+}
+.login-wrapper .login-input .sign-in-input .sign-in-btn {
+  text-align: center;
+  width: 100%;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #0078c3;
+  height: 43px;
+  line-height: 43px;
+  cursor: pointer;
+}
+.login-wrapper .login-input .to-sign {
+  font-size: 12px;
+  text-align: right;
+  width: 380px;
+  margin: 18px auto 0;
+}
+.login-wrapper .login-input .to-sign a {
+  color: #0078c3;
+}
+.login-wrapper .login-input .to-sign .tel {
+  background: url("i/i-tel.png") no-repeat left;
+  background-size: 18px;
+  color: #ee7207;
+  font-size: 16px;
+  float: left;
+  padding-left: 25px;
+}
+.login-wrapper .login-footer {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  bottom: 50px;
+}
