@@ -1366,3 +1366,144 @@
   position: absolute;
   bottom: 50px;
 }
+.aboutus-content {
+  padding: 30px 25px;
+  font-size: 14px;
+  color: #666;
+  line-height: 2;
+}
+.aboutus-content .about-txt {
+  margin: 10px 0;
+  text-indent: 28px;
+}
+.aboutus-content .aboutus-img {
+  margin-bottom: 20px;
+}
+.aboutus-content .aboutus-img img {
+  height: 80px;
+  width: 500px;
+  margin-right: 15px;
+  margin-top: 30px;
+  float: left;
+}
+.aboutus-content .show-person-list {
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+}
+.aboutus-content .show-person-list .handler-trangle {
+  position: absolute;
+  right: 28px;
+}
+.aboutus-content .show-person-list .handler-trangle i {
+  width: 28px;
+  height: 24px;
+  margin-right: 10px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.aboutus-content .show-person-list .handler-trangle i.i-left {
+  background: url("i/i-left.png") no-repeat center;
+}
+.aboutus-content .show-person-list .handler-trangle i.i-right {
+  background: url("i/i-right.png") no-repeat center;
+}
+.aboutus-content .show-person-list .person-list-title {
+  color: #017ec0;
+  font-size: 18px;
+  text-align: left;
+}
+.aboutus-content .show-person-list .item {
+  width: 220px;
+  float: left;
+  margin-right: 38px;
+  border: 1px solid #cccccc;
+}
+.aboutus-content .show-person-list .item .photo {
+  height: 160px;
+  width: 160px;
+  margin: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.aboutus-content .show-person-list .item .photo img {
+  display: block;
+}
+.aboutus-content .show-person-list .item .name {
+  text-align: center;
+  line-height: 1.5;
+}
+.aboutus-content .show-person-list .item .name .cn {
+  font-size: 16px;
+}
+.aboutus-content .show-person-list .item .name .en {
+  font-size: 12px;
+  color: #333333;
+}
+.aboutus-content .show-person-list .item .name .person-title {
+  font-size: 12px;
+}
+.aboutus-content .show-person-list .item .name .person-title:before {
+  content: '';
+  position: relative;
+  margin: 5px auto;
+  display: block;
+  width: 10px;
+  height: 2px;
+  background-color: #a0a0a0;
+}
+.aboutus-content .show-person-list .item .show {
+  margin-top: 40px;
+}
+.aboutus-content .show-person-list .item .show p {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.aboutus-content .show-person-list .item .show p span {
+  display: block;
+}
+.aboutus-content .show-person-list .item .show p .txt {
+  font-size: 12px;
+}
+.aboutus-content .show-person-list .item .show p .num {
+  font-size: 18px;
+  color: #ee7207;
+}
+.contactus-content {
+  padding: 55px 34px;
+}
+.contactus-content .info-list li {
+  float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  margin-right: 70px;
+  font-size: 18px;
+  padding-top: 95px;
+  text-align: center;
+}
+.contactus-content .info-list li:nth-child(1) {
+  background: url("i/icon_18.png") no-repeat center 33px #f5f5f5;
+}
+.contactus-content .info-list li:nth-child(2) {
+  background: url("i/icon_19.png") no-repeat center 55px #f5f5f5;
+}
+.contactus-content .info-list li:nth-child(3) {
+  background: url("i/icon_20.png") no-repeat center 44px #f5f5f5;
+}
+.contactus-content .info-list li:nth-child(4) {
+  margin-right: 0;
+  background: url("i/icon_21.png") no-repeat center 45px #f5f5f5;
+}
+.contactus-content .map-box {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+.contactus-content .map-box #allmap {
+  width: 100%;
+  height: 100%;
+}
