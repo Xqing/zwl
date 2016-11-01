@@ -140,6 +140,11 @@
 		height: 300px;
 		background: url("i/i-news.jpg") no-repeat center #101010;
 	}
+	.help-banner{
+		width: 100%;
+		height: 300px;
+		background: url("i/i-help.jpg") no-repeat center #101010;
+	}
 }
 
 .member-content{
@@ -1616,5 +1621,159 @@
 			height: 100%;
 		}
 	}
+}
 
+.jobs-content{
+	padding: 34px;
+	.choose-jobs{
+		line-height: 3;
+		font-size: 14px;
+		label{
+			width: 85px;
+			display: inline-block;
+			text-align: center;
+		}
+		span{
+			margin-right: 5px;
+			padding: 8px 20px;
+			border-radius: 3px;
+			text-align: center;
+			&.current{
+				background-color: #ff6634;
+				color: #fff;
+			}
+		}
+	}
+	.jobs-info{
+		margin-top: 20px;
+		.item{
+			height: 140px;
+			box-sizing: border-box;
+			border-top: 1px solid #ddd;
+			padding: 30px 0 35px 20px;
+			border-left: 5px solid #fff;
+
+			.jobs-name{
+				color: #017ec0;
+				font-size: 20px;
+				.jobs-time{
+					font-size: 14px;
+					float: right;
+					color: #5d5d5d;
+					margin-right: 20px;
+				}
+			}
+			.jobs-detail{
+				margin-top: 20px;
+				font-size: 14px;
+			}
+			&:hover{
+				background-color: #f8f8f8;
+				border-left: 5px solid #03b2eb;
+			}
+		}	
+	}
+}
+
+.feedback-content{
+	padding: 40px 30px 50px 30px;
+	.desc{
+		height: 85px;
+		padding-top: 35px;
+		border-bottom: 1px dashed #ddd;
+		background: url("i/icon_pen.jpg") no-repeat right bottom;
+		.small-txt{
+			font-size: 12px;
+			line-height: 1.5;
+		}
+	}
+	.feedback-input{
+		margin-top: 50px;
+		color: #a3a3a3;
+		p{
+			margin-bottom: 20px;
+		}
+		label{
+			width: 50px;
+			margin-right: 10px;
+			text-align: right;
+			font-size: 14px;
+			vertical-align: top;
+		}
+		input{
+			border: 1px solid #ccc;
+			height: 30px;
+			width: 260px;
+			padding-left: 10px;
+		}
+		textarea{
+			height: 225px;
+			width: 600px;
+			border: 1px solid #ccc;
+			resize: none;
+
+		}
+		.tips{
+			font-size: 12px;
+			margin-left: 10px;
+		}
+	}
+}
+
+.help-content{
+	margin-top: 20px;
+	.help-nav{
+		float: left;
+		width: 238px;
+		background-color: #fff;
+		font-size: 16px;
+		line-height: 3.3;
+		border: 1px solid #ccc;
+		ul{
+			li{
+				padding-left: 20px;
+				border-bottom: 1px solid #ccc;
+				cursor: pointer;
+				&.current{
+					background-color: #017ec0;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.help-main{
+		width: 960px;
+		float: left;
+		background-color: #fff;
+		padding: 35px;
+		border: 1px solid #ccc;
+		.help-title{
+			font-size: 18px;
+			line-height: 3;
+			border-bottom: 1px solid #ccc;
+		}
+		.qa-list{
+			margin-top: 20px;
+			ul{
+				li{
+					height: 60px;
+					line-height: 60px;
+					padding-left: 25px;
+					border-bottom: 1px dashed #ccc;
+					position: relative;
+					&:before{
+						content: '';
+						height: 12px;
+						width: 12px;
+						border-radius: 50%;
+						border: 1px solid #017ec0;
+						position: absolute;
+						left: 0;
+						top: 25px;
+					}
+
+				}
+			}
+		}
+	}
 }
