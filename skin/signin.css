@@ -26,6 +26,7 @@
   margin: 13px 0;
   width: 100%;
   padding-left: 43px;
+  font-size: 12px;
 }
 .sign-in-content .content-wrapper .sign-in-wrapper .sign-in-input input.username {
   margin-top: 43px;
@@ -85,6 +86,7 @@
   margin: 7px 0;
   width: 100%;
   padding-left: 43px;
+  font-size: 12px;
 }
 .sign-up-content .content-wrapper .sign-up-wrapper .sign-up-input input.username {
   margin-top: 46px;
@@ -163,7 +165,7 @@
   height: 100%;
 }
 .sign-up-content .content-wrapper .qrcode-wrapper p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .sign-up-content .content-wrapper .qrcode-wrapper p a {
   color: #0078c3;
@@ -289,6 +291,7 @@
   margin: 15px 0;
   width: 100%;
   padding-left: 43px;
+  font-size: 12px;
 }
 .sign-up-content .content-wrapper .find-pwd-wrapper .find-pwd-input input.username {
   background: url("i/i-username.png") no-repeat 7px;
@@ -331,7 +334,7 @@
   font-size: 12px;
   cursor: pointer;
 }
-.sign-up-content .content-wrapper .find-pwd-wrapper .find-pwd-input .pwd-tips:after {
+.sign-up-content .content-wrapper .find-pwd-wrapper .find-pwd-input .pwd-tips.showTips:after {
   content: "";
   display: block;
   position: absolute;

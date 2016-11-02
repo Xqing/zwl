@@ -22,7 +22,21 @@ body {
 .show {
   display: block;
 }
+/*错误框*/
+.error {
+  border: 1px solid red !important;
+}
 /*不可见的*/
 .invisible {
   visibility: hidden;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0078c3;
+  border-radius: 10px;
 }

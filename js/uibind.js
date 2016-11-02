@@ -43,9 +43,9 @@ $(function(){
 
     /**
      * input数字输入限制
-     * onlyLong-只能输入整数的方法 class类名：inputOnlyLong
-     * onlyFloat-只能输入带小数点的数字 class类名：inputOnlyFloat
-     * 使用方式：
+     * 只能输入整数的方法 class类名：inputOnlyLong
+     * 只能输入带小数点的数字 class类名：inputOnlyFloat
+     * 只能输入手机号 class类名：inputOnlyTel
      *
      */
 
@@ -65,6 +65,11 @@ $(function(){
     $('body').delegate('.inputOnlyLong','blur',function(){
         var $this = $(this);
         checkNum($this);
+    });
+
+    $('body').delegate('.inputOnlyTel','blur',function(){
+        var $this = $(this);
+        checkTel($this);
     });
 
     /**
@@ -125,5 +130,41 @@ $(function(){
         var thisVal = node.val();
         node.val(thisVal.replace(/\.$/g,""));
     }
+
+    function checkTel(node){
+        var tel = node.val();
+        var reg = /^0?1[3|4|5|8][0-9]\d{8}$/;
+        if (reg.test(tel)) {
+            
+        }else{
+            node.addClass('error');
+        };
+    }
+
+
+
+
+
+
+    //业务逻辑
+    //密码提示悬停出现
+    $('.pwd-tips').hover(function() {
+        $(this).addClass('showTips');
+    }, function() {
+        $(this).removeClass('showTips');
+    });
+    //选项卡们
+    $('.collection-table').on('click', '.collection-tab span', function() {
+        var $this = $(this);
+        $this.parents('.collection-tab').find('.active').removeClass('active');
+        $this.addClass('active');
+    });
+    $('.debt-main').on('click', '.tab a', function() {
+        var $this = $(this);
+        $this.parents('.tab').find('.current').removeClass('current');
+        $this.addClass('current');
+    });
+    
+
 
 });
