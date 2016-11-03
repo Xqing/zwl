@@ -865,7 +865,7 @@
               font-size: 14px;
             }
             input{
-              width: 260;
+              width: 260px;
               height: 36px;
             }
 
@@ -1624,4 +1624,64 @@
     
     
   }
+}
+
+.choose-city-popup{
+  .popup_card {
+    width: 900px;
+    height: auto;
+    margin-left: -450px;
+    padding: 0;
+    border-radius: 8px;
+    .popup_close{
+      margin: 20px 20px 0 0 ;
+    }
+  }
+  .popup_sure{
+    .popup_title{
+      padding: 25px ;
+    }
+  }
+  .popup_content{
+    .city-list{
+      padding: 25px;
+      position: relative;
+      .each-city{
+        margin-right: 18px;
+        font-size: 13px;
+        padding: 3px 5px;
+        border-radius: 3px;
+        cursor: pointer;
+        &.current{
+          background-color: #0078c3;
+          color: #fff;
+        }
+      }
+    }
+    .dist-list{
+      position: absolute;
+      width: 236px;
+      top: 15px;
+      left: 15px;
+      background-color: #0078c3;
+      border-radius: 8px;
+      line-height: 3;
+      color: #fff;
+      p{
+        border-radius: 8px;
+        background-color: #ff6634;
+        padding: 0 20px ;
+      }
+      div{
+        padding: 0 20px ;
+        span{
+          width: 30%;
+          display: inline-block;
+        }
+      }
+
+    }
+
+  }
+
 }

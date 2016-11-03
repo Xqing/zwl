@@ -835,7 +835,7 @@
   font-size: 14px;
 }
 .member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .biz-choose input {
-  width: 260;
+  width: 260px;
   height: 36px;
 }
 .member-content-wrapper .main-content .member-collection .collection-main .collection-wrapper .profit {
@@ -1569,4 +1569,54 @@
   float: left;
   margin-left: 10px;
   margin-top: 3px;
+}
+.choose-city-popup .popup_card {
+  width: 900px;
+  height: auto;
+  margin-left: -450px;
+  padding: 0;
+  border-radius: 8px;
+}
+.choose-city-popup .popup_card .popup_close {
+  margin: 20px 20px 0 0 ;
+}
+.choose-city-popup .popup_sure .popup_title {
+  padding: 25px ;
+}
+.choose-city-popup .popup_content .city-list {
+  padding: 25px;
+  position: relative;
+}
+.choose-city-popup .popup_content .city-list .each-city {
+  margin-right: 18px;
+  font-size: 13px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.choose-city-popup .popup_content .city-list .each-city.current {
+  background-color: #0078c3;
+  color: #fff;
+}
+.choose-city-popup .popup_content .dist-list {
+  position: absolute;
+  width: 236px;
+  top: 15px;
+  left: 15px;
+  background-color: #0078c3;
+  border-radius: 8px;
+  line-height: 3;
+  color: #fff;
+}
+.choose-city-popup .popup_content .dist-list p {
+  border-radius: 8px;
+  background-color: #ff6634;
+  padding: 0 20px ;
+}
+.choose-city-popup .popup_content .dist-list div {
+  padding: 0 20px ;
+}
+.choose-city-popup .popup_content .dist-list div span {
+  width: 30%;
+  display: inline-block;
 }
