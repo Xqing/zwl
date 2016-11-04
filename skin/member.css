@@ -1260,6 +1260,10 @@
   margin-left: 114px;
   width: 1062px;
 }
+.member-content-wrapper .asset-main-content .choose-box p .area .prov,
+.member-content-wrapper .asset-main-content .choose-box .line .area .prov {
+  float: left;
+}
 .member-content-wrapper .asset-main-content .your-choose {
   line-height: 3;
   background-color: #007ec0;
@@ -1277,6 +1281,7 @@
   text-align: left;
   color: #5d5d5d;
   position: relative;
+  margin-right: 10px;
 }
 .member-content-wrapper .asset-main-content .your-choose span:after {
   content: 'x';
@@ -1598,9 +1603,9 @@
   background-color: #0078c3;
   color: #fff;
 }
-.choose-city-popup .popup_content .dist-list {
+.dist-list {
   position: absolute;
-  width: 236px;
+  width: 440px;
   top: 15px;
   left: 15px;
   background-color: #0078c3;
@@ -1608,15 +1613,16 @@
   line-height: 3;
   color: #fff;
 }
-.choose-city-popup .popup_content .dist-list p {
+.dist-list p {
   border-radius: 8px;
   background-color: #ff6634;
   padding: 0 20px ;
 }
-.choose-city-popup .popup_content .dist-list div {
+.dist-list div {
   padding: 0 20px ;
 }
-.choose-city-popup .popup_content .dist-list div span {
+.dist-list div span {
   width: 30%;
   display: inline-block;
+  cursor: pointer;
 }

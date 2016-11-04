@@ -1298,7 +1298,11 @@
         .area{
           margin-left: 114px;
           width: 1062px;
+          .prov{
+            float:left;
+          }
         }
+
       }
     }
     .your-choose{
@@ -1317,6 +1321,7 @@
         text-align: left;
         color: #5d5d5d;
         position: relative;
+        margin-right: 10px;
         &:after{
           content: 'x';
           position: absolute;
@@ -1658,30 +1663,33 @@
         }
       }
     }
-    .dist-list{
-      position: absolute;
-      width: 236px;
-      top: 15px;
-      left: 15px;
-      background-color: #0078c3;
-      border-radius: 8px;
-      line-height: 3;
-      color: #fff;
-      p{
-        border-radius: 8px;
-        background-color: #ff6634;
-        padding: 0 20px ;
-      }
-      div{
-        padding: 0 20px ;
-        span{
-          width: 30%;
-          display: inline-block;
-        }
-      }
 
+
+  }
+
+}
+
+.dist-list{
+  position: absolute;
+  width: 440px;
+  top: 15px;
+  left: 15px;
+  background-color: #0078c3;
+  border-radius: 8px;
+  line-height: 3;
+  color: #fff;
+  p{
+    border-radius: 8px;
+    background-color: #ff6634;
+    padding: 0 20px ;
+  }
+  div{
+    padding: 0 20px ;
+    span{
+      width: 30%;
+      display: inline-block;
+      cursor: pointer;
     }
-
   }
 
 }

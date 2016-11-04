@@ -3,7 +3,8 @@ $(function(){
      * 弹窗关闭
      */
     $('.popup').delegate('.popup_close','click',function() {
-        $(this).parents('.popup').hide();
+        $(this).parents('.popup').addClass('hide');
+        $('.choose-city-popup').find('.dist-list').addClass('hide');
     });
 
     /**
@@ -23,7 +24,6 @@ $(function(){
     });
     var start = {
         elem: '#laydate-start',
-        max: laydate.now(),
         choose: function(datas){
             end.min = datas; //开始日选好后，重置结束日的最小日期
             end.start = datas; //将结束日的初始值设定为开始日
@@ -31,7 +31,6 @@ $(function(){
     };
     var end = {
         elem: '#laydate-end',
-        max: laydate.now(),
         choose: function(datas){
             start.max = datas; //结束日选好后，重置开始日的最大日期
         }
@@ -164,6 +163,18 @@ $(function(){
         $this.parents('.tab').find('.current').removeClass('current');
         $this.addClass('current');
     });
+
+
+
+    //资债中心筛选逻辑
+    $('.asset-main-content').find('.choose-box p').delegate('span','click',function(){
+        var $this = $(this);
+        $this.parents('p').find('.active').removeClass('active');
+        $this.addClass('active');
+    });
+    $('.your-choose').delegate('span','click',function(){
+        $(this).remove();
+    })
     
 
 
