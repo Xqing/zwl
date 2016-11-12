@@ -5,7 +5,6 @@ $(function(){
     $('.popup').delegate('.popup_close','click',function() {
         $(this).parents('.popup').hide();
     });
-    
      //失焦关闭
     $(document).mouseup(function(e){
         var _con = $('.popup_card');
@@ -13,33 +12,11 @@ $(function(){
             $('.popup').hide();
         }
     });
-    $(window).scroll(function(event) {
+    $(document).scroll(function() {
         var scTop = $(document).scrollTop();
-        // console.log(scTop)
-        if(scTop >= 0 && scTop < 800){
-            $('.short-bar').find('.current').removeClass('current');
-            $('#a-bg1').addClass('current');
-        }
-        if(scTop >= 800 && scTop < 1600){
-            $('.short-bar').find('.current').removeClass('current');
-            $('#a-bg2').addClass('current');
-        }
-        if(scTop >= 1600 && scTop < 2400){
+        if(scTop >= 1658){
             $('.short-bar').find('.current').removeClass('current');
             $('#a-bg3').addClass('current');
-        }
-        if(scTop >= 2400 && scTop < 3200){
-            $('.short-bar').find('.current').removeClass('current');
-            $('#a-bg4').addClass('current');
-        }
-        if(scTop >= 3200 && scTop < 4800){
-            $('.short-bar').find('.current').removeClass('current');
-            $('#a-bg5').addClass('current');
-        }
-
-        if(scTop >= 4800){
-            $('.short-bar').find('.current').removeClass('current');
-            $('#a-bg6').addClass('current');
         }
     });
 

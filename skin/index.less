@@ -829,6 +829,7 @@
 			width: 25%;
 			height: 100%;
 			border-right: 1px solid #cccccc;
+			position: relative;
 			i{
 				float: left;
 				display: block;
@@ -884,6 +885,24 @@
 			}
 
 		}
+	}
+	.handler-trangle {
+	  position: absolute;
+	  right: 28px;
+	  i{
+		width: 28px;
+		height: 24px;
+		margin-right: 10px;
+		display: block;
+		float: left;
+		cursor: pointer;
+		&.i-left {
+		  background: url("i/i-left.png") no-repeat center;
+		}
+		&.i-right {
+	  	  background: url("i/i-right.png") no-repeat center;
+		}
+	  }
 	}
 }
 
@@ -1149,6 +1168,24 @@
 		}
 		
 	}
+	.strengths-bar{
+		width: 172px;
+		height: 5px;
+		margin: 55px auto;
+		span{
+			width: 50px;
+			height: 3px;
+			background-color: #ccc;
+			display: inline-block;
+			cursor: pointer;
+			&:nth-child(2){
+				margin: 0 5px; 
+			}
+			&.current{
+				background-color: #0078c3;
+			}
+		}
+	}
 }
 .index-expert{
 	background-color: #ffffff;
@@ -1243,6 +1280,37 @@
 						font-size: 18px;
 						color: #ee7207;
 					}			
+				}
+			}
+
+		}
+	}
+	.expert-bar{
+		text-align: center;
+		width: 120px;
+		height: 15px;
+		margin: 25px auto 0;
+		span{
+			width: 12px;
+			height: 12px;
+			margin: 0 8px;
+			display: block;
+			float: left;
+			background: #a0a0a0;
+			cursor: pointer;
+			border-radius: 50%;
+			&.current {
+			  background: #f97700;
+			  position: relative;
+			  &:after{
+				  content: "";
+				  position: absolute;
+				  height: 20px;
+				  width: 20px;
+				  border: 1px solid #f97700;
+				  border-radius: 50%;
+				  top: -4px;
+				  left: -4px;
 				}
 			}
 
@@ -1812,6 +1880,51 @@
 
 .app-content{
   width: 100%;
+  .short-bar{
+  	position: fixed;
+	left: 120px;
+	height: 300px;
+	top: 50px;
+	width: 20px;
+	z-index: 99;
+  	i{
+  		height: 300px;
+  		display: block;
+  		width: 2px;
+  		border-left:1px solid #017ec0;
+  	}
+  	a{
+  		height: 14px;
+  		width: 14px;
+  		border-radius: 50%;
+  		background-color: #017ec0;
+  		cursor: pointer;
+  		position: absolute;
+  		left: -7px;
+		z-index: 100;
+  		&#a-bg1{
+  			top: 20px;
+  		}
+  		&#a-bg2{
+  			top: 65px;
+  		}
+  		&#a-bg3{
+  			top: 115px;
+  		}
+  		&#a-bg4{
+  			top: 165px;
+  		}
+  		&#a-bg5{
+  			top: 215px;
+  		}
+  		&#a-bg6{
+  			top: 265px;
+  		}
+  		&.current,&:hover{
+  			background-color: #f97700;
+  		}
+  	}
+  }
   .bg1{
 	height: 813px;
 	background: url("i/app-bg1.jpg") no-repeat center;
