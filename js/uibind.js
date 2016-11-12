@@ -3,7 +3,8 @@ $(function(){
      * 弹窗关闭
      */
     $('.popup').delegate('.popup_close','click',function() {
-        $(this).parents('.popup').hide();
+        $(this).parents('.popup').addClass('hide');
+        $('.choose-city-popup').find('.dist-list').addClass('hide');
     });
     
      //失焦关闭
@@ -60,7 +61,6 @@ $(function(){
     });
     var start = {
         elem: '#laydate-start',
-        max: laydate.now(),
         choose: function(datas){
             end.min = datas; //开始日选好后，重置结束日的最小日期
             end.start = datas; //将结束日的初始值设定为开始日
@@ -68,7 +68,6 @@ $(function(){
     };
     var end = {
         elem: '#laydate-end',
-        max: laydate.now(),
         choose: function(datas){
             start.max = datas; //结束日选好后，重置开始日的最大日期
         }
@@ -162,5 +161,53 @@ $(function(){
         var thisVal = node.val();
         node.val(thisVal.replace(/\.$/g,""));
     }
+
+    function checkTel(node){
+        var tel = node.val();
+        var reg = /^0?1[3|4|5|8][0-9]\d{8}$/;
+        if (reg.test(tel)) {
+            
+        }else{
+            node.addClass('error');
+        };
+    }
+
+
+
+
+
+
+    //业务逻辑
+    //密码提示悬停出现
+    $('.pwd-tips').hover(function() {
+        $(this).addClass('showTips');
+    }, function() {
+        $(this).removeClass('showTips');
+    });
+    //选项卡们
+    $('.collection-table').on('click', '.collection-tab span', function() {
+        var $this = $(this);
+        $this.parents('.collection-tab').find('.active').removeClass('active');
+        $this.addClass('active');
+    });
+    $('.debt-main').on('click', '.tab a', function() {
+        var $this = $(this);
+        $this.parents('.tab').find('.current').removeClass('current');
+        $this.addClass('current');
+    });
+
+
+
+    //资债中心筛选逻辑
+    $('.asset-main-content').find('.choose-box p').delegate('span','click',function(){
+        var $this = $(this);
+        $this.parents('p').find('.active').removeClass('active');
+        $this.addClass('active');
+    });
+    $('.your-choose').delegate('span','click',function(){
+        $(this).remove();
+    })
+    
+
 
 });

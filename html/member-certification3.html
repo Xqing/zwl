@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="../skin/signin.css"/>
     <link rel="stylesheet" type="text/css" href="../skin/member.css"/>
     <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/laydate/laydate.js"></script>
+    <script type="text/javascript" src="../js/nicEdit.js"></script>
+    <script type="text/javascript" src="../js/jquery.cityselect.js"></script>
     <script type="text/javascript" src="../js/uibind.js"></script>
     <script type="text/javascript" src="../js/index.js"></script>
 
@@ -170,7 +173,7 @@
                                 <option>街</option>
                             </select>
                         </p>
-                        <p>
+                        <p class="small-txt">
                             <label>资格认证：</label>
                             <input type="radio" name="zqlx"/>五证
                             <input type="radio" name="zqlx" checked/>三证合一
@@ -224,27 +227,17 @@
                                 </p>
                             </div>
                         </div>
-                        <p>
+                        <p id="choose-area">
                             <label>催收覆盖区域：</label>
-                            <select>
-                                <option>市</option>
-                            </select>
-                            <select>
-                                <option>区</option>
-                            </select>
-                            <select>
-                                <option>街</option>
-                            </select>
+                            <select class="prov"></select>
+                            <select class="city" disabled="disabled"></select>
+                            <select class="dist" disabled="disabled"></select>
                             <span class="add-adress">添加</span>
                         </p>
-                        <div class="my-area">
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
-                            <span>四川省-成都市-锦江区<i>X</i></span>
+                        <div class="my-area hide">
+
                         </div>
-                        <p>
+                        <p class="small-txt">
                             <label>擅长处置方式：</label>
                             <input type="radio" name="zqlx"/>诉讼
                             <input type="radio" name="zqlx" checked/>非诉
@@ -261,6 +254,7 @@
                     </div>
 
                 </div>
+
 
             </div>
 
@@ -372,4 +366,8 @@
 
 
 </body>
+<script>
+
+    $("#choose-area").citySelect();
+</script>
 </html>

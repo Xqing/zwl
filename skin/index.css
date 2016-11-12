@@ -1673,6 +1673,19 @@
   font-size: 12px;
   margin-left: 10px;
 }
+.feedback-content .feedback-input .submit-btn {
+  width: 77px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #0376b2;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 24px;
+  margin-left: 56px;
+}
 .help-content {
   margin-top: 20px;
 }
