@@ -86,7 +86,7 @@
                 $(this).parents().find('.active').removeClass('active');
                 $(this).addClass('active');
                 cityStart();
-                $('.choose-city-popup').removeClass('hide');
+                $('.choose-city-popup').show();
             });
 
             // 选择市级时发生事件
@@ -98,7 +98,7 @@
                 $(this).addClass('current');
                 distStart();
                 if(flag){
-                    $('.choose-city-popup').find('.dist-list').removeClass('hide').css({'left':$thisLeft,'top':$thisTop});
+                    $('.choose-city-popup').find('.dist-list').show().css({'left':$thisLeft,'top':$thisTop});
                 }else{
                     //如果没有区县则直接返回
                     $('.your-choose').append('<span>'+ myChoose +'</span>');

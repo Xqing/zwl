@@ -6,6 +6,43 @@ $(function(){
         $(this).parents('.popup').addClass('hide');
         $('.choose-city-popup').find('.dist-list').addClass('hide');
     });
+    
+     //失焦关闭
+    $(document).mouseup(function(e){
+        var _con = $('.popup_card');
+        if(!_con.is(e.target) && _con.has(e.target).length === 0){
+            $('.popup').hide();
+        }
+    });
+    $(window).scroll(function(event) {
+        var scTop = $(document).scrollTop();
+        // console.log(scTop)
+        if(scTop >= 0 && scTop < 800){
+            $('.short-bar').find('.current').removeClass('current');
+            $('#a-bg1').addClass('current');
+        }
+        if(scTop >= 800 && scTop < 1600){
+            $('.short-bar').find('.current').removeClass('current');
+            $('#a-bg2').addClass('current');
+        }
+        if(scTop >= 1600 && scTop < 2400){
+            $('.short-bar').find('.current').removeClass('current');
+            $('#a-bg3').addClass('current');
+        }
+        if(scTop >= 2400 && scTop < 3200){
+            $('.short-bar').find('.current').removeClass('current');
+            $('#a-bg4').addClass('current');
+        }
+        if(scTop >= 3200 && scTop < 4800){
+            $('.short-bar').find('.current').removeClass('current');
+            $('#a-bg5').addClass('current');
+        }
+
+        if(scTop >= 4800){
+            $('.short-bar').find('.current').removeClass('current');
+            $('#a-bg6').addClass('current');
+        }
+    });
 
     /**
      * 起止起止日期使用方法
@@ -42,9 +79,9 @@ $(function(){
 
     /**
      * input数字输入限制
-     * 只能输入整数的方法 class类名：inputOnlyLong
-     * 只能输入带小数点的数字 class类名：inputOnlyFloat
-     * 只能输入手机号 class类名：inputOnlyTel
+     * onlyLong-只能输入整数的方法 class类名：inputOnlyLong
+     * onlyFloat-只能输入带小数点的数字 class类名：inputOnlyFloat
+     * 使用方式：
      *
      */
 
@@ -64,11 +101,6 @@ $(function(){
     $('body').delegate('.inputOnlyLong','blur',function(){
         var $this = $(this);
         checkNum($this);
-    });
-
-    $('body').delegate('.inputOnlyTel','blur',function(){
-        var $this = $(this);
-        checkTel($this);
     });
 
     /**
@@ -134,7 +166,7 @@ $(function(){
         var tel = node.val();
         var reg = /^0?1[3|4|5|8][0-9]\d{8}$/;
         if (reg.test(tel)) {
-
+            
         }else{
             node.addClass('error');
         };
@@ -175,7 +207,7 @@ $(function(){
     $('.your-choose').delegate('span','click',function(){
         $(this).remove();
     })
-
+    
 
 
 });
