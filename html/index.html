@@ -13,6 +13,54 @@
     <script type="text/javascript" src="../js/sliderM.js"></script>
     <script type="text/javascript" src="../js/uibind.js"></script>
     <script type="text/javascript" src="../js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="../skin/default/css/f-base.css" />
+    <script type="text/javascript" src="../skin/default/js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="../skin/default/js/common.js"></script>
+    <script type="text/javascript">
+        //base
+        var _baseUrl = '';
+        var baseJSUrl = '../skin/default/js/';
+        var baseCSSUrl = '../skin/default/css/';
+    </script>
+    <script type="text/javascript">
+        var account_url="http://sc.chinaz.com";
+        var refreshCartUrl="http://sc.chinaz.com";//购物车
+        var recentlyViewedUrl="http://sc.chinaz.com"; //最近浏览
+        var saveMessageUrl="http://sc.chinaz.com";//提交留言
+        var checkout_Url="http://sc.chinaz.com";//去购物车并结算
+        var go_buy="http://sc.chinaz.com";//购买
+        var place_url="skin/default/images/place.png";//loading图片
+        var validateCode_url="http://sc.chinaz.com/index.php?g=Api&m=Checkcode&type=userlogin&code_len=4&font_size=14&width=80&height=24&font_color=&background=white";//获取验证码
+        var delCart_url="http://sc.chinaz.com";
+        var account_order_url="http://sc.chinaz.com";
+        var account_return_url="http://sc.chinaz.com";
+        var account_address_url="http://sc.chinaz.com";
+        var account_giftcard_url="http://sc.chinaz.com";
+        var account_cashcard_url="http://sc.chinaz.com";
+        var account_jf_url="http://sc.chinaz.com";
+        var account_comment_url = "http://sc.chinaz.com";
+        var account_consult_url = "http://sc.chinaz.com";
+        var account_message_url = "http://sc.chinaz.com";
+        var account_arrival_url = "http://sc.chinaz.com";
+        var account_reduce_url = "http://sc.chinaz.com";
+        var unreadNewMsgUrl = "http://sc.chinaz.com";
+        //Dialog icon base path
+        ds.Dialog.defaults.iconBasePath = 'skin/default/images/';
+        function showInfoTip(content, type, onhide){
+            var icons = {success:'success.png', info: 'info.png'};
+            var icon = icons[type] || 'error.png';
+            return ds.dialog({
+                title: '消息提示',
+                content: content,
+                onhide: onhide,
+                onyes: true,
+                icon: icon,
+                timeout: 3,
+                width: 200
+            });
+        }
+        ds.loadScript(baseJSUrl+'quick_links.js');
+    </script>
 </head>
 <body>
 <!--header start-->
@@ -525,19 +573,7 @@
 <!--content end-->
 
 <!--float s-->
-<div class="float-block">
-    <ul>
-        <li class="top">返回顶部</li>
-        <li class="my">个人中心</li>
-        <li class="wechat">关注微信</li>
-        <li class="app">APP下载</li>
-        <li class="gm">联系客服</li>
-    </ul>
-    <div class="close">
-        <div class="close_css"></div>
-    </div>
-
-</div>
+<div class="float-block"></div>
 <!--float e-->
 
 <!--footer s-->
