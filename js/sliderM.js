@@ -23,7 +23,9 @@
             "MOUSE_START": "touchstart",
             "MOUSE_MOVE": "touchmove",
             "MOUSE_END": "touchend",
-            "MOVE_STOP": "movestop"
+            "MOVE_STOP": "movestop",
+            "MOUSE_OVER": "mouseover",
+            "MOUSE_OUT": "mouseout"
         };
 
         /**
@@ -225,6 +227,9 @@
             self.startHandler(evt);
             self.stop();
         });
+        this.sliderWrap.bind(this.EVENTS.MOUSE_OVER, function (evt) {
+            self.stop();
+        });
 
         this.sliderWrap.bind(this.EVENTS.MOUSE_MOVE, function (evt) {
             self.moveHandler(evt);
@@ -234,6 +239,9 @@
         });
 
         this.sliderWrap.bind(this.EVENTS.MOUSE_END, function (evt) {
+            self.restart();
+        });
+        this.sliderWrap.bind(this.EVENTS.MOUSE_OUT, function (evt) {
             self.endHandler(evt);
             self.restart();
         });

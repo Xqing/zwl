@@ -134,7 +134,7 @@ $(function(){
         var tel = node.val();
         var reg = /^0?1[3|4|5|8][0-9]\d{8}$/;
         if (reg.test(tel)) {
-            
+
         }else{
             node.addClass('error');
         };
@@ -175,7 +175,7 @@ $(function(){
     $('.your-choose').delegate('span','click',function(){
         $(this).remove();
     })
-    
+
 
 
 });
