@@ -1604,8 +1604,8 @@
   border-radius: 50%;
   background-color: #f5f5f5;
   margin-right: 70px;
-  font-size: 18px;
-  padding-top: 95px;
+  font-size: 14px;
+  padding: 95px 20px 0;
   text-align: center;
 }
 .contactus-content .info-list li:nth-child(1) {
@@ -1995,9 +1995,9 @@
   text-align: center;
 }
 .app-content .bg7 .txt-area .txt2 {
-  font-size: 24px;
+  font-size: 18px;
   color: #19303b;
-  text-align: center;
-  width: 680px;
+  text-align: left;
+  width: 640px;
   margin: 75px auto 0;
 }

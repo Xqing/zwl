@@ -655,6 +655,7 @@
   width: 25%;
   height: 100%;
   float: left;
+  position: relative;
 }
 .index-content .index-number ul li i {
   float: left;
@@ -662,17 +663,46 @@
   height: 100%;
   width: 110px;
 }
+.index-content .index-number ul li u {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 110px;
+  height: 100%;
+  background: url(i/icon_c-b.png) no-repeat center;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.index-content .index-number ul li u.bcy {
+  background: url(i/icon_c-y.png) no-repeat center;
+}
+.index-content .index-number ul li u.cl {
+  clip: rect(0px, 140px, 140px, 70px);
+}
+.index-content .index-number ul li u.cr {
+  clip: rect(0px, 70px, 140px, 0);
+}
+.index-content .index-number ul li:hover u.cl {
+  clip: rect(0, 140px, -10px, 70px);
+}
+.index-content .index-number ul li:hover u.cr {
+  clip: rect(140px, 70px, 140px, 0px);
+}
 .index-content .index-number ul li:nth-child(1) i {
-  background: url('i/icon_1.png') no-repeat left;
+  background: url('i/icon_1-2.png') no-repeat center;
 }
 .index-content .index-number ul li:nth-child(2) i {
-  background: url('i/icon_2.png') no-repeat left;
+  background: url('i/icon_2-2.png') no-repeat center;
 }
 .index-content .index-number ul li:nth-child(3) i {
-  background: url('i/icon_3.png') no-repeat left;
+  background: url('i/icon_3-2.png') no-repeat center;
 }
 .index-content .index-number ul li:nth-child(4) i {
-  background: url('i/icon_4.png') no-repeat left;
+  background: url('i/icon_4-2.png') no-repeat center;
 }
 .index-content .index-number ul li .num {
   font-size: 14px;

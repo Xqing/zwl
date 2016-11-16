@@ -151,7 +151,7 @@
   font-size: 14px;
 }
 .member-content-wrapper .main-content .member-certification .certi-main .certi-wrapper select {
-  width: 90px;
+  width: 142px;
   height: 40px;
   margin-right: 10px;
   padding-left: 14px;
@@ -467,7 +467,7 @@ z-index: 255;
   font-size: 14px;
 }
 .member-content-wrapper .main-content .member-debt .debt-main .debt-wrapper select {
-  width: 90px;
+  width: 142px;
   height: 40px;
   margin-right: 10px;
   padding-left: 14px;
@@ -1237,7 +1237,18 @@ z-index: 255;
 .member-content-wrapper .asset-main-content .choose-box .line {
   line-height: 3;
   font-size: 12px;
+  position: relative;
   border-bottom: 1px dashed #cccccc;
+}
+.member-content-wrapper .asset-main-content .choose-box i.search-btn{
+  background: url("/Public/images/zwy/i/i-search.png") no-repeat center;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  position: absolute;
+  left: 285px;
+  top: 13px;
+  cursor: pointer;
 }
 .member-content-wrapper .asset-main-content .choose-box p a{
   color:#222222;
@@ -1266,7 +1277,6 @@ z-index: 255;
 }
 .member-content-wrapper .asset-main-content .choose-box p .choose-search,
 .member-content-wrapper .asset-main-content .choose-box .line .choose-search {
-  background: url("/Public/images/zwy/i/i-search.png") no-repeat 170px #ffffff;
   padding-left: 10px;
   height: 25px;
   width: 200px;
@@ -1329,7 +1339,6 @@ z-index: 255;
   font-size: 14px;
   line-height: 3;
   border: 1px solid #ccc;
-  margin-bottom: 50px;
 }
 .member-content-wrapper .asset-main-content .asset-table tr {
   border-bottom: 1px dashed #cccccc;
@@ -1656,7 +1665,7 @@ z-index: 255;
   padding: 0 20px ;
 }
 .dist-list div span {
-  width: 30%;
+  min-width: 30%;
   display: inline-block;
   cursor: pointer;
 }

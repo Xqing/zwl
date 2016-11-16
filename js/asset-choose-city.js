@@ -83,7 +83,7 @@
 
             // 选择省份时发生事件
             prov_obj.delegate('span','click',function(){
-                $(this).parents().find('.active').removeClass('active');
+                $(this).parents('.prov').find('.active').removeClass('active');
                 $(this).addClass('active');
                 cityStart();
                 $('.choose-city-popup').show();
