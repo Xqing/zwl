@@ -11,7 +11,7 @@
 .header .header-wrapper .logo {
   margin-top: 26px;
   height: 66px;
-  width: 334px;
+  width: 420px;
   background: url("/Public/images/zwy/i/i-logo.png") no-repeat center;
   float: left;
 }
@@ -57,7 +57,7 @@
 .member-header .header-top .top-wrapper {
   width: 1200px;
   margin: 0 auto;
-  font-size: 12px;
+  font-size: 15px;
 }
 .member-header .header-top .top-wrapper .tel {
   background: url("/Public/images/zwy/i/i-tel2.png") no-repeat left;
@@ -93,7 +93,7 @@
 }
 .member-header .header-logo .header-wrapper .logo {
   height: 90px;
-  width: 340px;
+  width: 420px;
   float: left;
   background: url("/Public/images/zwy/i/i-logo.png") no-repeat left;
 }
@@ -144,8 +144,8 @@
   -webkit-transform: rotate(135deg);
   -o-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
-  right: 10px;
-  top: 10px;
+  right: 4px;
+  top: 12px;
 }
 .member-header .header-logo .header-wrapper .menu ul li:hover {
   background-color: #0078c3;
@@ -535,7 +535,7 @@
   font-size: 36px;
   color: #0078c3;
   display: block;
-  margin: 10px 0;
+  margin: 73px 0;
 }
 .member-footer .member-footer-wrapper .footer-part3 ul {
   width: 125px;
@@ -566,13 +566,16 @@
   float: left;
 }
 .member-footer .member-footer-wrapper .footer-part4 .img-area {
-  width: 792px;
   height: 43px;
   float: right;
 }
-.member-footer .member-footer-wrapper .footer-part4 .img-area img {
-  height: 100%;
-  width: 100%;
+.member-footer .member-footer-wrapper .footer-part4 .img-area a {
+  display: inline-block;
+  margin-right: 2px;
+}
+.member-footer .member-footer-wrapper .footer-part4 .img-area a img {
+  height: 42px;
+  width: 107px;
 }
 .member-footer .links {
   height: 54px;
@@ -768,6 +771,7 @@
   width: 25%;
   height: 100%;
   float: left;
+  position: relative;
 }
 .index-content .index-number ul li i {
   float: left;
@@ -775,17 +779,46 @@
   height: 100%;
   width: 110px;
 }
+.index-content .index-number ul li u {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 110px;
+  height: 100%;
+  background: url('/Public/images/zwy/i/icon_c-b.png') no-repeat center;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.index-content .index-number ul li u.bcy {
+  background: url('/Public/images/zwy/i/icon_c-y.png') no-repeat center;
+}
+.index-content .index-number ul li u.cl {
+  clip: rect(0px, 140px, 140px, 70px);
+}
+.index-content .index-number ul li u.cr {
+  clip: rect(0px, 70px, 140px, 0);
+}
+.index-content .index-number ul li:hover u.cl {
+  clip: rect(0, 140px, -10px, 70px);
+}
+.index-content .index-number ul li:hover u.cr {
+  clip: rect(140px, 70px, 140px, 0px);
+}
 .index-content .index-number ul li:nth-child(1) i {
-  background: url('/Public/images/zwy/i/icon_1.png') no-repeat left;
+  background: url('/Public/images/zwy/i/icon_1-2.png') no-repeat center;
 }
 .index-content .index-number ul li:nth-child(2) i {
-  background: url('/Public/images/zwy/i/icon_2.png') no-repeat left;
+  background: url('/Public/images/zwy/i/icon_2-2.png') no-repeat center;
 }
 .index-content .index-number ul li:nth-child(3) i {
-  background: url('/Public/images/zwy/i/icon_3.png') no-repeat left;
+  background: url('/Public/images/zwy/i/icon_3-2.png') no-repeat center;
 }
 .index-content .index-number ul li:nth-child(4) i {
-  background: url('/Public/images/zwy/i/icon_4.png') no-repeat left;
+  background: url('/Public/images/zwy/i/icon_4-2.png') no-repeat center;
 }
 .index-content .index-number ul li .num {
   font-size: 14px;
@@ -820,6 +853,7 @@
   width: 25%;
   height: 100%;
   border-right: 1px solid #cccccc;
+  position: relative;
 }
 .index-shortcut ul li i {
   float: left;
@@ -877,6 +911,24 @@
 .index-shortcut ul li .bignum {
   font-size: 24px;
   float: left;
+}
+.index-shortcut .handler-trangle {
+  position: absolute;
+  right: 28px;
+}
+.index-shortcut .handler-trangle i {
+  width: 28px;
+  height: 24px;
+  margin-right: 10px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.index-shortcut .handler-trangle i.i-left {
+  background: url("/Public/images/zwy/i/i-left.png") no-repeat center;
+}
+.index-shortcut .handler-trangle i.i-right {
+  background: url("/Public/images/zwy/i/i-right.png") no-repeat center;
 }
 .index-contract {
   width: 100%;
@@ -1167,6 +1219,24 @@
   margin-left: 10px;
   margin-top: 10px;
 }
+.index-strengths .strengths-bar {
+  width: 172px;
+  height: 5px;
+  margin: 55px auto;
+}
+.index-strengths .strengths-bar span {
+  width: 50px;
+  height: 3px;
+  background-color: #ccc;
+  display: inline-block;
+  cursor: pointer;
+}
+.index-strengths .strengths-bar span:nth-child(2) {
+  margin: 0 5px;
+}
+.index-strengths .strengths-bar span.current {
+  background-color: #0078c3;
+}
 .index-expert {
   background-color: #ffffff;
   width: 100%;
@@ -1263,6 +1333,36 @@
 .index-expert .person-list .item .show p .num {
   font-size: 18px;
   color: #ee7207;
+}
+.index-expert .expert-bar {
+  text-align: center;
+  width: 120px;
+  height: 15px;
+  margin: 25px auto 0;
+}
+.index-expert .expert-bar span {
+  width: 12px;
+  height: 12px;
+  margin: 0 8px;
+  display: block;
+  float: left;
+  background: #a0a0a0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.index-expert .expert-bar span.current {
+  background: #f97700;
+  position: relative;
+}
+.index-expert .expert-bar span.current:after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #f97700;
+  border-radius: 50%;
+  top: -4px;
+  left: -4px;
 }
 .index-news {
   background-color: #f8f9fa;

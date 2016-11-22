@@ -206,7 +206,21 @@ $(function(){
     });
     $('.your-choose').delegate('span','click',function(){
         $(this).remove();
-    })
+    });
+
+
+
+
+    //首页轮播
+    $('.index-strengths').find('.strengths-bar').delegate('span','click',function () {
+        var $this = $(this);
+        var thisIndex = $this.index();
+        $this.parents('.strengths-bar').find('.current').removeClass('current');
+        $this.addClass('current');
+        $('.index-strengths-wrapper').find('.j-slider-item.current').removeClass('current');
+        $('.index-strengths-wrapper').find('.j-slider-item').eq(thisIndex).addClass('current');
+
+    });
     
 
 

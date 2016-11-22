@@ -89,6 +89,8 @@
         this.options = $.extend(defaultOpts, opts);
 
         this.init();
+
+
     }
 
     /**
@@ -350,6 +352,9 @@
     Slider.prototype.prev = function () {
     };
 
+
+
+
     if (!(this.Slider instanceof  Slider)) {
         this.Slider = Slider;
     }
@@ -374,24 +379,15 @@
                 $(this).attr("slider-init-status", true);
             });
 
-            $(".J_brand_slider").each(function () {
-                if ($(this).attr("slider-init-status")) {
-                    return;
-                }
 
-                var defaultOpts = {
-                    slider: this,
-                    auto: false,
-                    rank: 2.5
-                };
-                new Slider($.extend(defaultOpts, opts));
-                $(this).attr("slider-init-status", true);
-            });
         };
     }
 
 
     $(function () {
         window.slider();
+        $(window).on("resize", function () {
+            window.location.reload();
+        });
     });
 })(this, jQuery);

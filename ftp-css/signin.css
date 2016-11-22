@@ -111,6 +111,7 @@
   height: 14px;
   margin-right: 5px;
   vertical-align: sub;
+  padding-left: 0;
 }
 .sign-up-content .content-wrapper .sign-up-wrapper .sign-up-input .get-code {
   float: right;

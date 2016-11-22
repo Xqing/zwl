@@ -508,9 +508,13 @@
   height: 43px;
   float: right;
 }
-.member-footer .member-footer-wrapper .footer-part4 .img-area img {
-  height: 100%;
-  width: 100%;
+.member-footer .member-footer-wrapper .footer-part4 .img-area a {
+  display: inline-block;
+  margin-right: 2px;
+}
+.member-footer .member-footer-wrapper .footer-part4 .img-area a img {
+  height: 42px;
+  width: 107px;
 }
 .member-footer .links {
   height: 54px;
@@ -962,6 +966,58 @@
 .index-strengths .index-strengths-wrapper {
   width: 1200px;
   margin: 0 auto;
+}
+.index-strengths .index-strengths-wrapper .content {
+  position: relative;
+  height: 380px;
+}
+.index-strengths .index-strengths-wrapper .content .j-slider-item {
+  position: absolute;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.index-strengths .index-strengths-wrapper .content .j-slider-item.current {
+  animation: movein 0.5s;
+  -moz-animation: movein 0.5s;
+  /* Firefox */
+  -webkit-animation: movein 0.5s;
+  /* Safari 和 Chrome */
+  -o-animation: movein 0.5s;
+}
+@keyframes movein {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes movein {
+  from {
+    background: red;
+  }
+  to {
+    background: yellow;
+  }
+}
+@-webkit-keyframes movein {
+  from {
+    background: red;
+  }
+  to {
+    background: yellow;
+  }
+}
+@-o-keyframes movein {
+  from {
+    background: red;
+  }
+  to {
+    background: yellow;
+  }
 }
 .index-strengths .index-strengths-wrapper .content .item {
   margin-left: 30px;

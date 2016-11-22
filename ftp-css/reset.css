@@ -112,6 +112,7 @@ audio:not([controls]) {
  */
 a {
   background: transparent;
+  outline: none;
   /*1*/
 }
 a:focus {
