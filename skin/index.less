@@ -1040,6 +1040,8 @@
 			height: 380px;
 			.j-slider-item{
 				position: absolute;
+				z-index: 1;
+				opacity: 0;
 				-webkit-transition:all .5s ease-in-out 0s;
 				-moz-transition:all .5s ease-in-out 0s;
 				-ms-transition:all .5s ease-in-out 0s;
@@ -1047,54 +1049,32 @@
 				transition:all .5s ease-in-out 0s;
 
 				&.current{
+					z-index: 10;
+					opacity: 1;
 					animation: movein 0.5s;
 					-moz-animation: movein 0.5s;	/* Firefox */
 					-webkit-animation: movein 0.5s;	/* Safari 和 Chrome */
 					-o-animation: movein 0.5s;
-					@keyframes movein
-					{
+					@keyframes movein{
 						from {
-							transform: translateX(100%);
-
+							transform: translate3D(100%,0,10px);
 						}
-						to {
-							transform: translateX(0)
+						to {transform: translateX(0);
 						}
 					}
-
-					@-moz-keyframes movein
-					{
-						from {
-							-moz-transform: translateX(100%);
-
-						}
-						to {
-							-moz-transform: translateX(0)
-						}
+					@-moz-keyframes movein{
+						from {-moz-transform: translateX(100%);}
+						to {-moz-transform: translateX(0);}
 					}
+					@-webkit-keyframes movein{
+						from {-webkit-transform: translate3D(100%,0,10px);
+							}
+						to {-webkit-transform: translateX(0);
+							}
 					}
-
-					@-webkit-keyframes movein
-					{
-						from {
-							-webkit-transform: translateX(100%);
-
-						}
-						to {
-							-webkit-transform: translateX(0)
-						}
-					}
-
-					@-o-keyframes movein
-					{
-
-						from {
-							-o-transform: translateX(100%);
-
-						}
-						to {
-							-o-transform: translateX(0)
-						}
+					@-o-keyframes movein{
+						from {-o-transform: translateX(100%);}
+						to {-o-transform: translateX(0);}
 					}
 				}
 			}
@@ -1258,6 +1238,48 @@
 	.person-list{
 		width: 1200px;
 		margin: 0 auto;
+		position: relative;
+		height: 380px;
+		.j-slider-item{
+				position: absolute;
+				z-index: 1;
+				opacity: 0;
+				-webkit-transition:all .5s ease-in-out 0s;
+				-moz-transition:all .5s ease-in-out 0s;
+				-ms-transition:all .5s ease-in-out 0s;
+				-o-transition:all .5s ease-in-out 0s;
+				transition:all .5s ease-in-out 0s;
+
+				&.current{
+					z-index: 10;
+					opacity: 1;
+					animation: movein 0.5s;
+					-moz-animation: movein 0.5s;	/* Firefox */
+					-webkit-animation: movein 0.5s;	/* Safari 和 Chrome */
+					-o-animation: movein 0.5s;
+					@keyframes movein{
+						from {
+							transform: translate3D(100%,0,10px);
+						}
+						to {transform: translateX(0);
+						}
+					}
+					@-moz-keyframes movein{
+						from {-moz-transform: translateX(100%);}
+						to {-moz-transform: translateX(0);}
+					}
+					@-webkit-keyframes movein{
+						from {-webkit-transform: translate3D(100%,0,10px);
+							}
+						to {-webkit-transform: translateX(0);
+							}
+					}
+					@-o-keyframes movein{
+						from {-o-transform: translateX(100%);}
+						to {-o-transform: translateX(0);}
+					}
+				}
+			}
 		.item{
 			height: 380px;
 			width: 220px;

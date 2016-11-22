@@ -973,6 +973,8 @@
 }
 .index-strengths .index-strengths-wrapper .content .j-slider-item {
   position: absolute;
+  z-index: 1;
+  opacity: 0;
   -webkit-transition: all 0.5s ease-in-out 0s;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -980,6 +982,8 @@
   transition: all 0.5s ease-in-out 0s;
 }
 .index-strengths .index-strengths-wrapper .content .j-slider-item.current {
+  z-index: 10;
+  opacity: 1;
   animation: movein 0.5s;
   -moz-animation: movein 0.5s;
   /* Firefox */
@@ -989,7 +993,7 @@
 }
 @keyframes movein {
   from {
-    transform: translateX(100%);
+    transform: translate3D(100%, 0, 10px);
   }
   to {
     transform: translateX(0);
@@ -997,26 +1001,26 @@
 }
 @-moz-keyframes movein {
   from {
-    background: red;
+    -moz-transform: translateX(100%);
   }
   to {
-    background: yellow;
+    -moz-transform: translateX(0);
   }
 }
 @-webkit-keyframes movein {
   from {
-    background: red;
+    -webkit-transform: translate3D(100%, 0, 10px);
   }
   to {
-    background: yellow;
+    -webkit-transform: translateX(0);
   }
 }
 @-o-keyframes movein {
   from {
-    background: red;
+    -o-transform: translateX(100%);
   }
   to {
-    background: yellow;
+    -o-transform: translateX(0);
   }
 }
 .index-strengths .index-strengths-wrapper .content .item {
@@ -1158,6 +1162,60 @@
 .index-expert .person-list {
   width: 1200px;
   margin: 0 auto;
+  position: relative;
+  height: 380px;
+}
+.index-expert .person-list .j-slider-item {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.index-expert .person-list .j-slider-item.current {
+  z-index: 10;
+  opacity: 1;
+  animation: movein 0.5s;
+  -moz-animation: movein 0.5s;
+  /* Firefox */
+  -webkit-animation: movein 0.5s;
+  /* Safari 和 Chrome */
+  -o-animation: movein 0.5s;
+}
+@keyframes movein {
+  from {
+    transform: translate3D(100%, 0, 10px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes movein {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(0);
+  }
+}
+@-webkit-keyframes movein {
+  from {
+    -webkit-transform: translate3D(100%, 0, 10px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+  }
+}
+@-o-keyframes movein {
+  from {
+    -o-transform: translateX(100%);
+  }
+  to {
+    -o-transform: translateX(0);
+  }
 }
 .index-expert .person-list .item {
   height: 380px;

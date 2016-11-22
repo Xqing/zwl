@@ -221,6 +221,16 @@ $(function(){
         $('.index-strengths-wrapper').find('.j-slider-item').eq(thisIndex).addClass('current');
 
     });
+
+    $('.index-expert').find('.expert-bar').delegate('span','click',function () {
+        var $this = $(this);
+        var thisIndex = $this.index();
+        $this.parents('.expert-bar').find('.current').removeClass('current');
+        $this.addClass('current');
+        $('.person-list').find('.j-slider-item.current').removeClass('current');
+        $('.person-list').find('.j-slider-item').eq(thisIndex).addClass('current');
+
+    });
     
 
 
